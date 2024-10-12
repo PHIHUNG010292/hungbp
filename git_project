@@ -1,0 +1,4331 @@
+{
+  "translation": {
+    "commonText": {
+      "button": {
+        "register": "保存",
+        "update": "更新",
+        "delete": "削除",
+        "skip": "スキップ",
+        "execute": "実行",
+        "cancel": "キャンセル",
+        "change": "変更",
+        "chooseFileText": "ファイル選択",
+        "open": "開く",
+        "close": "閉じる",
+        "submit": "送信",
+        "add": "保存",
+        "printExcel": "一覧印刷 EXCEL",
+        "printPDF": "一覧印刷 PDF",
+        "filter": "絞込",
+        "return": "戻る",
+        "copy": "コピー",
+        "search": "検索",
+        "clear": "クリア",
+        "today": "今日",
+        "show": "表示",
+        "restore": "復元",
+        "rerun": "再実行",
+        "matching": "突合",
+        "save": "保存",
+        "createReport": "帳票ファイル作成",
+        "downloadReport": "帳票ファイルDL",
+        "browse": "ブラウザ",
+        "download": "ダウンロード",
+        "import": "インポート",
+        "openLink": "遷移",
+        "pause": "一時停止",
+        "resume": "再開",
+        "hyperlink": "ハイパーリンク",
+        "move": "移動",
+        "stop": "停止",
+        "reset": "リセット",
+        "slipCancel": "取消",
+        "upload": "アップロード",
+        "autoRefresh": "自動更新",
+        "check": "チェック",
+        "load": "取込",
+        "confirm": "確認",
+        "back": "戻す"
+      },
+      "icon": {
+        "add": "追加",
+        "copy": "コピー",
+        "editCell": "単一編集",
+        "editColumn": "一括編集",
+        "bulkEdit": "一括編集",
+        "delete": "削除",
+        "cancel": "キャンセル",
+        "split": "分割",
+        "replacement": "置換",
+        "refresh": "リロード",
+        "view": "参照",
+        "excel": "Excel印刷",
+        "transition": "遷移",
+        "operation": "操作",
+        "unsort": "ソート解除",
+        "upload": "アップロード",
+        "meInCharge": "私が担当",
+        "download": "ダウンロード"
+      },
+      "columnName": {
+        "createUser": "新規作成者",
+        "createDateTime": "新規作成日時",
+        "updateUser": "最終更新者",
+        "updateDateTime": "更新日時",
+        "remarks": "備考",
+        "fileName": "ファイル名",
+        "code": "コード",
+        "name": "名称",
+        "nameShort": "略称",
+        "itemCode": "部品番号",
+        "action": "処理",
+        "sort": "ソート"
+      },
+      "supplierType": {
+        "firstSupplier": "（1次）",
+        "secondarySupplier": "（2次）"
+      },
+      "placeHolder": {
+        "halfWidthNumber": "半角数字",
+        "halfWidthAlphabet": "半角英字",
+        "halfWidthNumberAlphabet": "半角英数字",
+        "halfWidthNumberAlphabetKana": "半角英数カナ文字",
+        "halfWidthKana": "半角カナ文字",
+        "date": "日付"
+      },
+      "gridTitle": {
+        "total": "合計",
+        "selected": "選択済",
+        "toBeCorrected": "表示",
+        "searched": "検索済",
+        "unsearched": "検索残",
+        "item": "件",
+        "useCurrency": "単位",
+        "target": "対象"
+      },
+      "toastTitle": {
+        "confirmation": "確認",
+        "success": "成功",
+        "error": "エラー",
+        "warning": "警告",
+        "information": "インフォメーション"
+      },
+      "filterPanel": {
+        "clearButton": "クリア",
+        "toBeCorrected": "表示"
+      },
+      "notificationPanel": {
+        "header": "通知",
+        "canNotImport": "インポートできません"
+      },
+      "activeStatusOptions": {
+        "active": "有効",
+        "inactive": "無効"
+      },
+      "lockOptions": {
+        "locked": "ロック",
+        "unLock": "解除中"
+      },
+      "target": {
+        "yes": "する",
+        "no": "しない"
+      },
+      "status": {
+        "notyet": "未",
+        "doing": "中",
+        "done": "済",
+        "both": "両方"
+      },
+      "datePicker": {
+        "time": "時間"
+      },
+      "textFilterDropdownSuffixOptions": {
+        "startsWith": "で始まる",
+        "endsWith": "で終わる",
+        "contains": "を含む",
+        "sameAs": "と同じ"
+      },
+      "numberFilterDropdownSuffixOptions": {
+        "greaterThanOrEqual": "以上",
+        "lessThanOrEqual": "以下",
+        "equal": "と同じ",
+        "notEqual": "以外"
+      },
+      "printOptions": {
+        "toBeIssued": "発行する",
+        "doNotIssue": "発行しない"
+      },
+      "manualAndAutoOptions": {
+        "automatic": "自動",
+        "manual": "手動"
+      },
+      "targetOptions": {
+        "target": "対象",
+        "notApplicaple": "対象外"
+      },
+      "permissionOptions": {
+        "permitted": "許可する",
+        "notPermitted": "しない"
+      },
+      "otherOption": {
+        "allow": "可",
+        "deny": "不可"
+      },
+      "associatedName": {
+        "warehouse": "拠点",
+        "warehouseGroup": "拠点グループ",
+        "supplier": "サプライヤ",
+        "jobConfig": "ジョブコンフィグ",
+        "inventory": "在庫",
+        "importExportRequest": "受信処理/送信処理",
+        "area": "エリア属性",
+        "location": "ロケーション",
+        "standardShippingDate": "出荷日基準",
+        "supplierPlant": "サプライヤ工場",
+        "destinationPlant": "出荷先工場",
+        "deliveryPlace": "納入場所",
+        "supplyPlace": "供給場所",
+        "section": "顧客部門",
+        "destination": "出荷先",
+        "deliveryPlaceGroupRelation": "納入場所グループ関連",
+        "shippingLaneLink": "出荷レーン紐付け",
+        "itemCode": "在庫品番",
+        "supplierItemCode": "サプライヤ品番",
+        "destinationItemCode": "出荷先品番",
+        "partsNo": "部品番号",
+        "productionType": "生産区分",
+        "stockSupplier": "在庫サプライヤ",
+        "destinationSupplier": "出荷先サプライヤ",
+        "itemName": "品目名",
+        "timeDivision": "時区時間"
+      },
+      "importFileDialog": {
+        "header": "インポート",
+        "overrideDataLabel": "既存データの上書き",
+        "placeHolder": "アップロードするファイルを選択してください",
+        "title": "ファイルからデータをインポート"
+      },
+      "dragDropUploadFileDialog": {
+        "dragAndDropFiles": "ファイルをドラッグアンドドロップ",
+        "fileSelection": "ファイル選択",
+        "or": "または"
+      },
+      "stockDataDisplayOption": {
+        "displayBoth": "両方表示",
+        "displayWithoutValue": "値なしのみ表示",
+        "displayWithValue": "値ありのみ表示"
+      },
+      "storedProcedures": {
+        "latestClosingMonthUpdate": "最新締月更新ストアドプロシージャ"
+      },
+      "header": {
+        "warehouseGroup": "拠点G",
+        "addFavorite": "お気に入りに追加"
+      },
+      "processLabel": {
+        "dailyProcess": "日次処理",
+        "monthlyProcess": "月次処理",
+        "stockRenewalDailyProcess": "在庫更新日次処理",
+        "prcShippingOneDataStandard": "標準納入予定ファイル取込DB展開(一件処理)",
+        "prcShippingTakeErrorStandard": "標準納入予定ファイル取込エラーDB展開",
+        "prcShippingErrorCheckStandard": "標準納入01マスタエラーチェック処理"
+      },
+      "other": {
+        "noData": "データがありません。",
+        "all": "全て",
+        "displayOnlyUnregistered": "未登録のみ表示する",
+        "changePosition": "行をドラッグアンドドロップして位置を変更します。"
+      }
+    },
+    "report": {
+      "standardItemTag": {
+        "destination": "出荷先",
+        "partNo": "部品番号",
+        "itemCapacity": "収容数",
+        "itemName": "品名",
+        "boxNo": "口数",
+        "instructionQuantity": "指示数",
+        "supplier": "受注者",
+        "inspectionType": "検区",
+        "firstThingsType": "初区",
+        "importantSafetyPartsType": "重保",
+        "deliveryPlace": "納入場所",
+        "process": "次工程",
+        "orderNo": "納品番号",
+        "deliveryDate": "納期",
+        "deliveryTime": "便・時間",
+        "stockItem": "在庫品番",
+        "supplierItemCode": "サプライヤ品番",
+        "packagingCode": "荷姿コード",
+        "lotNo": "ロットNo.",
+        "inspectionSeal": "検印",
+        "transportation": "納入者",
+        "workingDate": "作業日",
+        "serialNumber": "連番",
+        "staff": "事務担当",
+        "honorific": "御中",
+        "fraction": "端",
+        "optionImmediate": "緊急出荷分を印刷しない",
+        "optionReplace": "要差替え（変更オーダー）を印刷する",
+        "optionOthers": "その他",
+        "standardItemTag": "一般現品票",
+        "createDate": "データ作成日",
+        "printStartSerial": "印刷開始連番",
+        "printEndSerial": "印刷終了連番",
+        "numberOfPrinted": "印刷枚数",
+        "partationLabel": "仕切りラベル",
+        "shippingDate": "出荷日"
+      },
+      "shippingSlip": {
+        "shippingSlip": "出荷指示書",
+        "warehouse": "拠点",
+        "supplierName": "サプライヤ",
+        "destinationShort": "出荷先",
+        "inspectionShort": "検査",
+        "deliveryLocation": "納入場所",
+        "efu": "荷札",
+        "TYLocation": "TY/庫口",
+        "total": "計",
+        "destinationItemCode": "出荷先品番",
+        "stockItemShort": "在庫品番",
+        "productionTypeShort": "生産区分",
+        "instructionQuantity": "指示数",
+        "supplyDestinationShort": "供給先",
+        "fullNumber": "満数",
+        "boxUnit": "箱",
+        "itemCapacityShort": "収容数",
+        "boxQuantity": "箱数",
+        "fraction": "端数",
+        "workingDate": "作業日",
+        "printDate": "発行日",
+        "shippingDate": "出荷日",
+        "staff": "事務担当",
+        "materialDeliveryDate": "納入日",
+        "orderNo": "納品番号",
+        "displayTime": "納入便",
+        "reason": "理由",
+        "timeShort": "納入時間",
+        "totalNumBox": "合計",
+        "stockAvailabilityType": "在庫有無",
+        "laneCode": "出荷L",
+        "Subtotal": "小計",
+        "pieces": "個"
+      },
+      "pickingList": {
+        "pickingListFull": "ピッキングリスト（満数）",
+        "pickingListFractional": "ピッキングリスト（端数）",
+        "warehouse": "拠点",
+        "supplierName": "サプライヤ",
+        "printDate": "発行日",
+        "workingDate": "作業日",
+        "shippingDate": "出荷日",
+        "staff": "事務担当",
+        "planShippingDateReport": "出荷予定日",
+        "stockItemShort": "在庫品番",
+        "destinationItemCode": "出荷先品番",
+        "productionTypeShort": "生産区分",
+        "instructionQuantity": "指示数",
+        "lotNo": "ロットNo.",
+        "itemCapacityShort": "収容数",
+        "boxQuantity": "箱数",
+        "destinationShort": "出荷先",
+        "deliveryLocation": "納入場所",
+        "supplyDestinationShort": "供給先",
+        "deliveryPlaceLocation": "生担/庫ロ",
+        "orderNo": "納品番号",
+        "deliveryDate": "納期",
+        "flight": "便",
+        "locationCode1": "ロケ１",
+        "locationCode2": "ロケ２",
+        "fullNumber": "満数",
+        "boxUnit": "箱",
+        "fraction": "端数",
+        "totalNumBox": "合計"
+      },
+      "shippingworkSlip": {
+        "throughList": "スルーリスト",
+        "shippingSlip": "出荷指示書",
+        "inspectionSlip": "検査指示書",
+        "repackingSlip": "詰替指示書",
+        "packingSlip": "梱包指示書",
+        "pickingListByItem": "ピッキングリスト<br/>（品目別）",
+        "warehouse": "拠点",
+        "printDate": "発行日",
+        "workingDate": "作業日",
+        "shippingDate": "出荷日",
+        "deliveryDate": "納入日",
+        "staff": "事務担当",
+        "supplierName": "サプライヤ",
+        "destinationShort": "出荷先",
+        "area": "エリア",
+        "pickingInfo": "ピッキング情報",
+        "stockItemShort": "在庫品番",
+        "productionTypeShort": "生産区分",
+        "instructionQuantity": "指示数",
+        "itemCapacityShort": "収容数",
+        "boxQuantity": "箱数",
+        "shippingInfo": "出荷情報",
+        "inspectionShort": "検査",
+        "deliveryLocation": "納入場所",
+        "supplyDestinationShort": "供給先",
+        "efu": "荷札",
+        "TYLocation": "TY/庫口",
+        "packaging": "荷姿",
+        "orderNo": "納品番号",
+        "reason": "理由",
+        "time": "時間",
+        "flight": "便",
+        "destinationItemCode": "出荷先品番",
+        "locationCode1": "ロケ1",
+        "locationCode2": "ロケ2",
+        "locationCodefr": "端数ロケ",
+        "lotNoRequirement": "ロット管理",
+        "stockAvailabilityType": "在庫有無",
+        "shippingLaneCode": "出荷L",
+        "supplierItemCode1": "サプライヤ品番1",
+        "supplierItemCode2": "サプライヤ品番2",
+        "noNeedLabel": "現品票:なし",
+        "needLabel": "現品票:あり",
+        "noNeedDeliverySlip": "納品書:なし",
+        "needDeliverySlip": "納品書:あり",
+        "through": "スルー",
+        "inspection": "検査",
+        "refill": "詰替",
+        "packing": "梱包",
+        "shipment": "出荷",
+        "stock": "在庫",
+        "yellow": "黄",
+        "blue": "青",
+        "outOfStock": "在庫無",
+        "inventory": "在庫",
+        "oldestInventoryInfo": "最古在庫情報",
+        "receiveDate": "入庫日",
+        "locationCodeInbound": "入庫ロケ",
+        "stockInQuantity": "入庫在庫数",
+        "qr": "QR",
+        "allocatedStockStatus": "引当在庫状態",
+        "beforeInspection": "検査前",
+        "beforeRefill": "詰替前",
+        "beforePacking": "梱包前",
+        "shippable": "出荷可能",
+        "stockItemCapacity": "在庫<br/>収容数",
+        "pickingListByItemFull": "ピッキングリスト<br/>（品目別・満数）",
+        "pickingListByItemFraction": "ピッキングリスト<br/>（品目別・端数）"
+      },
+      "receivePalletLabel": {
+        "receiveDate": "入庫日",
+        "receivePalletLabel": "入庫パレットラベル"
+      },
+      "workLabel": {
+        "refillLabel": "詰替ラベル",
+        "supplierName": "サプライヤ",
+        "destinationItemCode": "出荷先品番",
+        "workingDate": "作業日",
+        "destinationProductionType": "出荷先生産区分",
+        "itemCapacityShort": "収容数",
+        "workComment": "作業コメント",
+        "supplierItemCode": "サプライヤ品番",
+        "lotNo": "ロット番号",
+        "memo": "メモ",
+        "stockItemShort": "在庫品番",
+        "workInstructionNo": "作業指示番号",
+        "boxNo": "箱番号",
+        "printDate": "発行日",
+        "refill": "詰替",
+        "orderNo": "納品番号",
+        "seal": "確認印",
+        "handlingWarning": "取扱注意",
+        "packing": "梱包",
+        "shipment": "出荷",
+        "stock": "在庫",
+        "targetLotNoRequirement": "ロット管理対象",
+        "common": "（共通）",
+        "createDate": "データ作成日",
+        "printStartSerial": "印刷開始連番",
+        "printEndSerial": "印刷終了連番",
+        "numberOfPrinted": "印刷枚数",
+        "staff": "事務担当",
+        "supplier": "受注者",
+        "destination": "出荷先",
+        "shippingDate": "出荷日",
+        "partationLabel": "仕切りラベル",
+        "inspectionLabel": "検査ラベル",
+        "packingLabel": "梱包ラベル",
+        "inspection": "検査"
+      },
+      "productLabel": {
+        "productLabel": "製品ラベル",
+        "supplierName": "サプライヤ(From)",
+        "recipient": "宛先",
+        "partNo": "部品番号",
+        "productionType": "生産区分",
+        "quantity": "数量",
+        "supplierItemCode": "サプライヤ品番",
+        "location": "ロケーション",
+        "lotNo": "ロット番号",
+        "memo": "メモ",
+        "serialNo": "シリアル番号",
+        "boxNo": "箱番号",
+        "productionDate": "製造日",
+        "printDate": "発行日",
+        "inspectionSeal": "検印"
+      }
+    },
+    "profile": {
+      "commonLabel": {
+        "companyName": "会社名",
+        "userName": "ユーザー名",
+        "languageCode": "使用言語",
+        "roleGroupName": "権限グループ名",
+        "email": "メールアドレス",
+        "mainWarehouseGroupCode": "メイン拠点グループ",
+        "newPassword": "新しいパスワード"
+      },
+      "profile": {
+        "editProfile": "プロフィール変更",
+        "avatar": "プロフィール写真",
+        "editPassword": "パスワード変更",
+        "recentPassword": "現状パスワード",
+        "logOut": "ログアウト"
+      }
+    },
+    "menu": {
+      "level1": {
+        "dashboard": "ダッシュボード",
+        "inquiry": "問合せ",
+        "dataChecking": "データチェック",
+        "dataUpdating": "データ追加・更新",
+        "sendReceive": "送受信",
+        "exportPapers": "帳票出力",
+        "closingProcessing": "締め処理",
+        "priceManagement": "原価管理",
+        "masterMaintenance": "マスターメンテナンス",
+        "inventory": "棚卸",
+        "progressMonitor": "進捗モニター",
+        "receivePlan": "入庫予定",
+        "deliverySchedule": "納入予定",
+        "operation": "オペレーション",
+        "irregularProcess": "イレギュラー処理（仮）"
+      },
+      "level2": {
+        "regularOperation": "通常業務",
+        "confirmation": "確認用",
+        "unregisteredMasterDataList": "流動マスター未登録リスト",
+        "errorList": "エラーリスト",
+        "unpaidList": "未納リスト",
+        "changeOrderList": "変更指示リスト",
+        "handyDevice": "ハンディ",
+        "stackReader": "スタックリーダー",
+        "deliverySchedule": "納入予定",
+        "deliveryScheduleDetail": "納入予定詳細",
+        "shipmentInstructions": "出荷指示",
+        "deliverySlipCheck": "納品書チェック",
+        "transfer": "移動・転送・振替",
+        "receivePlan": "入庫予定",
+        "receivingProcess": "受信処理",
+        "publishPrint": "発行・印刷",
+        "republish": "再発行",
+        "excelOutputProcess": "Excel出力処理",
+        "invoice": "請求書",
+        "inventoryProcessing": "棚卸処理",
+        "stock": "在庫",
+        "forTestingPurposes": "テスト用",
+        "dailyClosing": "日次締め",
+        "monthlyClosing": "月次締め",
+        "priceManagement": "原価管理",
+        "NAL": "NAL",
+        "NT": "NT",
+        "progressStatusInquiry": "進捗状況問合せ",
+        "customerInventoryInformationInput": "取引先在庫情報入力",
+        "shelfDiscrepancyHandling": "棚差処理",
+        "workProgressManagement": "作業進捗管理",
+        "configuration": "設定",
+        "eachReceivePlan": "入庫予定（個社別）",
+        "eachDeliverySchedule": "納入予定（個社別）",
+        "itemRelated": "品目",
+        "clientRelated": "顧客関連",
+        "forAdministrator": "システム管理者向け",
+        "return": "返品",
+        "move": "移動",
+        "closure": "廃棄",
+        "deliveryScheduleList": "納入予定一覧(画面未作成のためラベル対応)",
+        "exportPapers": "帳票出力",
+        "sendingProcess": "送信処理",
+        "closingProcessing": "締め処理"
+      },
+      "level3": {
+        "publishPrint": "発行・印刷",
+        "dailyClosing": "日次締め",
+        "monthlyClosing": "月次締め",
+        "wherehouseManagement": "拠点管理(暫定)",
+        "priceManagement": "原価管理",
+        "sendReceiveConversion": "送受信変換",
+        "schedule": "スケジュール",
+        "systemSetting": "システム設定",
+        "handyDevice": "ハンディ",
+        "standard01": "標準01(画面未作成のためラベル対応)",
+        "forAnyone": "○○向け(画面未作成のためラベル対応)"
+      }
+    },
+    "login": {
+      "commonLabel": {
+        "email": "メールアドレス",
+        "inventoryPassword": "パスワード"
+      },
+      "link": {
+        "forgotPassword": "パスワードを忘れた場合"
+      },
+      "button": {
+        "login": "ログイン"
+      }
+    },
+    "initialPassword": {
+      "commonLabel": {
+        "userEmail": "メールアドレス",
+        "inventoryPassword": "パスワード"
+      },
+      "otherScreenName": {
+        "initialPassword": "パスワード初期設定",
+        "newPassword": "新しいパスワード",
+        "confirmPassword": "確認用パスワード"
+      },
+      "dialog": {
+        "login": "ログイン",
+        "register": "登録",
+        "cancel": "キャンセル",
+        "returnLogin": "ログイン画面に戻る"
+      }
+    },
+    "resetPassword": {
+      "commonLabel": {
+        "userEmail": "メールアドレス",
+        "inventoryPassword": "パスワード",
+        "newPassword": "新しいパスワード",
+        "confirmPassword": "確認用パスワード"
+      },
+      "otherScreenName": {
+        "resetPassword": "パスワード再設定",
+        "sendURLResetPW": "パスワード再設定用URL送信"
+      },
+      "link": {
+        "returnLogin": "ログイン画面に戻る"
+      }
+    },
+    "excel": {
+      "dailyMonthlyReport": {
+        "onchu": "御中",
+        "warehouseGroup": "拠点グループ",
+        "creationDateTime": "作成日時",
+        "inOutInfo": "入出庫情報",
+        "goodProduct": "良品",
+        "defectiveProduct": "不良品",
+        "deliveryInstructionInfo": "納入指示情報",
+        "warehouse": "拠点",
+        "inOutDate": "入出庫日",
+        "itemCode": "部品番号",
+        "productionType": "生産区分",
+        "supplierItemCode": "得意先品番",
+        "supplierExclusiveItemCode": "サプライヤ専用品目コード",
+        "balanceType": "受払タイプ",
+        "receiveQuantity": "入庫数量",
+        "shippingQuantity": "出庫数量",
+        "internalTransfer": "庫内振替",
+        "holdPreInspection": "HOLD検査前",
+        "destination": "納入先",
+        "deliveryPlace": "納入場所",
+        "supplyPlace": "供給場所",
+        "deliveryDate": "納期",
+        "deliveryTime": "納入時刻",
+        "destinationItemCode": "納入先品番",
+        "backNo": "背番号",
+        "planQuantity": "予定数",
+        "slipNo": "納品番号",
+        "process": "手順",
+        "calculationCategory": "計区",
+        "logisticsRoute": "物流ルート",
+        "inspectionType": "検査区分",
+        "firstThingsType": "初物区分",
+        "discontinuationType": "打切区分",
+        "lastResultShippingDate": "最終移動日",
+        "monthsInStock": "在庫月数",
+        "ABCStock": "在庫ABC",
+        "shippingOrder": "出荷順位",
+        "cumulativeShipments": "累積出荷数",
+        "cumulativeShipmentsCompositionRatio": "累積出荷数構成比",
+        "stockStatusCode": "在庫状態",
+        "monthlyReportBeginningQuantity": "期首在庫",
+        "monthlyTotal": "月間計",
+        "lastMonth": "前月"
+      },
+      "stockCertificate": {
+        "targetDate": "対象日付",
+        "client": "顧客",
+        "exportDateTime": "出力日時",
+        "month": "月度",
+        "timePoint": "時点",
+        "endOfTerm": "期末",
+        "supplierItemCode": "顧客品番",
+        "destinationItemCode": "出荷先品番",
+        "lotNo": "ロット番号",
+        "itemName": "品名",
+        "backNo": "背番号",
+        "SNP": "SNP",
+        "receiveQuantity": "入庫数",
+        "shippingQuantity": "出庫数",
+        "goodProduct": "良品",
+        "defectiveProduct": "不良品",
+        "stockQuantity": "在庫数",
+        "stockCertificate": "在庫証明書",
+        "onchu": "御中",
+        "sincerely": "敬具",
+        "ki": "記",
+        "total": "合計",
+        "theAbove": "以上"
+      }
+    },
+    "userMasterMaintenace": {
+      "commonLabel": {
+        "clientCode": "顧客コード",
+        "clientName": "顧客名",
+        "userName": "ユーザー名",
+        "email": "メールアドレス",
+        "htUserCode": "HTユーザー",
+        "mainWarehouseGroupCode": "メイン拠点グループ",
+        "defaultWarehouseCode": "デフォルト拠点",
+        "userClassificationType": "ユーザー分類",
+        "logisticsCompanyName": "物流企業名",
+        "fCNALoginEnable": "画面ログイン",
+        "fHandyLoginEnable": "HTログイン",
+        "loginDatetime": "最終ログイン日時",
+        "status": "状態",
+        "languageCode": "使用言語",
+        "delete": "削除フラグ",
+        "lockStatus": "ロック状態",
+        "passive": "Passive",
+        "active": "Active",
+        "login": "ログイン中",
+        "notLogin": "未ログイン",
+        "enable": "許可",
+        "disable": "禁止",
+        "showDeletedUser": "削除されたユーザーも表示する"
+      }
+    },
+    "userMasterMaintenaceDetail": {
+      "title": {
+        "userDetailSetting": "ユーザー詳細設定",
+        "permissionSetting": "拠点別権限設定",
+        "functionSetting": "機能別権限設定"
+      },
+      "commonLabel": {
+        "email": "メールアドレス",
+        "userName": "ユーザー名",
+        "rolloverDate": "パスワード次回変更日",
+        "clientCode": "顧客コード",
+        "htUserCode": "HTユーザー",
+        "htPassword": "HTパスワード",
+        "logisticsCompanyName": "物流企業名",
+        "section": "所属",
+        "position": "役職",
+        "phoneNo": "電話番号",
+        "userClassificationType": "ユーザー分類区分",
+        "mainWarehouseGroupCode": "メイン拠点グループ",
+        "languageCode": "使用言語",
+        "warehouseGroupName": "拠点グループ名",
+        "roleGroup": "権限グループ",
+        "deletingRecord": "削除",
+        "attention": "注意：HTユーザーが入力されている場合、HTパスワード記入は必須となります。",
+        "loginPermission": "ログイン許可",
+        "user": "ユーザー",
+        "cnaFailureLoginCount": "CNAログイン失敗回数",
+        "htFailureLoginCount": "HTログイン失敗回数",
+        "role": "権限",
+        "display": "表示",
+        "print": "印刷"
+      },
+      "radio": {
+        "enable": "許可",
+        "disable": "禁止"
+      },
+      "checkBox": {
+        "delete": "削除"
+      },
+      "link": {
+        "uploadAvatar": "ファイルをアップロード"
+      },
+      "Toggle": {
+        "activeToggle": "アクティブ"
+      }
+    },
+    "functionMasterMaintenace": {
+      "title": {
+        "addFunction": "機能追加"
+      },
+      "commonLabel": {
+        "functionCode": "機能コード",
+        "functionName": "機能名（メニュー表示名)",
+        "functionNameShort": "ツリー名称",
+        "systemType": "システム区分",
+        "functionLevel": "機能レベル",
+        "searchInitialDisplay": "検索バー初期表示フラグ",
+        "display": "表示する",
+        "notDisplay": "しない",
+        "displayUrl": "画面URL",
+        "searchCondition": "検索条件",
+        "viewAddInfo": "追加情報を表示する",
+        "checkAll": "全てチェック",
+        "language1": "日本語",
+        "language2": "英語",
+        "language3": "タイ語",
+        "language4": "インドネシア語",
+        "language5": "言語 5",
+        "language6": "言語 6",
+        "language7": "言語 7",
+        "language8": "言語 8",
+        "language9": "言語 9",
+        "language10": "言語 10"
+      }
+    },
+    "roleMasterMaintenance": {
+      "title": {
+        "addRole": "権限追加"
+      },
+      "commonLabel": {
+        "roleGroupCode": "権限グループコード",
+        "roleGroupName": "権限グループ名",
+        "userClassificationType": "ユーザー分類区分",
+        "delete": "削除フラグ",
+        "permissionSetting": "権限設定"
+      },
+      "link": {
+        "permissionSetting": "権限設定"
+      }
+    },
+    "roleMasterMaintenanceDetail": {
+      "commonLabel": {
+        "deletingRecord": "削除",
+        "target": "対象",
+        "functionCode": "機能コード",
+        "functionName": "機能名（メニュー表示名)",
+        "systemType": "システム区分",
+        "displayPermission": "表示権限",
+        "printPermission": "印刷権限",
+        "uploadPermission": "アップロード権限",
+        "downloadPermission": "ダウンロード権限",
+        "roleGroup": "権限グループ"
+      }
+    },
+    "logisticsCompanyMasterMaintenance": {
+      "title": {
+        "addLogisticsCompany": "物流企業追加"
+      },
+      "commonLabel": {
+        "logisticsCompanyCode": "物流企業コード",
+        "clientCode": "顧客コード",
+        "clientName": "顧客名",
+        "countryCode": "国コード",
+        "zipCode": "郵便番号",
+        "address1": "住所１",
+        "address2": "住所２",
+        "countryNo": "国番号",
+        "phoneNo": "電話番号",
+        "personName": "担当者氏名",
+        "customerMasterInformation": "顧客マスタ情報"
+      }
+    },
+    "itemMasterMaintenance": {
+      "commonLabel": {
+        "itemName": "品目名",
+        "itemCodeType": "品番区分",
+        "productionType": "生産区分",
+        "supplierCode": "サプライヤコード",
+        "destinationCode": "出荷先コード",
+        "destinationSupplierCode": "出荷先サプライヤコード",
+        "supplierItemCode": "サプライヤ品番",
+        "itemCode": "在庫品番",
+        "destinationItemCode": "出荷先品番",
+        "supplierCodeSecond": "サプライヤ（1次2次変換時の2次）",
+        "secondarySupplier": "※2次"
+      }
+    },
+    "itemMasterMaintenanceDetail": {
+      "commonLabel": {
+        "supplierCode": "サプライヤコード",
+        "destinationSupplierCode": "出荷先サプライヤコード",
+        "supplierItemCode": "サプライヤ品番",
+        "itemCodeType": "品番区分",
+        "destinationCode": "出荷先品番",
+        "itemName": "品目名",
+        "itemNameRead": "品目名よみ",
+        "itemNameShort": "品目名略称",
+        "itemCode": "在庫品番",
+        "destinationItemCode": "出荷先品番",
+        "productionType": "生産区分",
+        "subSupplier": "1次2次変換",
+        "productionTypeItem2": "量産",
+        "productionTypeItem3": "KD",
+        "productionTypeItem4": "パーツ",
+        "productionTypeItem5": "支給",
+        "productionTypeItem1": "試作"
+      },
+      "radio": {
+        "noUse": "使用しない",
+        "sameItemCode1": "生産区分あり",
+        "sameItemCode2": "同一品番",
+        "differentItemCode1": "生産区分なし",
+        "differentItemCode2": "別品番"
+      }
+    },
+    "supplierItemMasterMaintenance": {
+      "commonLabel": {
+        "itemName": "品目名",
+        "supplierCode": "在庫サプライヤコード",
+        "itemCode": "在庫品番",
+        "productionType": "生産区分",
+        "productionTypeItem2": "量産",
+        "productionTypeItem3": "KD",
+        "productionTypeItem4": "パーツ",
+        "productionTypeItem5": "支給",
+        "productionTypeItem1": "試作",
+        "supplierExclusiveItemCode": "サプライヤ専用品番",
+        "itemCapacity": "収容数",
+        "productLabelPrintType": "製品ラベル発行タイプ",
+        "applyStartDate": "適用開始日",
+        "setSupplierPlant": "サプライヤ工場設定",
+        "supplierItemCode": "サプライヤ品番"
+      }
+    },
+    "stockItemMasterMaintenance": {
+      "commonLabel": {
+        "supplierCode": "在庫サプライヤコード",
+        "itemName": "品目名",
+        "itemCode": "在庫品番",
+        "productionType": "生産区分",
+        "defaultWarehouseCode": "デフォルト拠点コード",
+        "originCountry": "原産国",
+        "backNo": "背番号",
+        "fCartonReceive": "カートン入庫フラグ",
+        "cartonReceive": "カートン入庫",
+        "notCartonReceive": "カートン入庫以外",
+        "palletLoadingCapacity": "パレット積載数",
+        "packagingCode": "荷姿コード",
+        "itemCapacity": "収容数",
+        "caseWeight": "ケース重量（kg）",
+        "productUnitPrice": "製品単価",
+        "temperatureCode": "保管温度帯コード",
+        "storageLimitDays": "保管期限日数",
+        "fInventory": "在庫管理対象フラグ",
+        "fLotNoRequirement": "ロット番号管理対象フラグ",
+        "individualManage": "サプライヤマスタの設定上はロット管理不要だが個別に管理必要",
+        "baseStockManagementType": "サプライヤマスタの「在庫管理タイプ」設定に準ずる",
+        "fInspectionRequirement": "検査対象フラグ",
+        "fRefillRequirement": "詰替対象フラグ",
+        "fPackingRequirement": "梱包対象フラグ",
+        "target": "対象",
+        "noTarget": "対象外",
+        "fSideUp": "天地取扱フラグ",
+        "targetSideUp": "天地取扱対象",
+        "fHandlingWarning": "取扱注意フラグ",
+        "targetHandlingWarning": "取扱注意対象",
+        "nonTarget": "非対象",
+        "lotNoOption1": "サプライヤマスタの設定上はロット管理不要だが個別に管理必要",
+        "lotNoOption0": "サプライヤマスタの「在庫管理タイプ」設定に準ずる"
+      }
+    },
+    "warehouseStockRelationMasterMaintenance": {
+      "title": {
+        "warehouseStockRelationRegistration": "拠点別在庫関連マスタメンテナンス登録"
+      }
+    },
+    "destinationItemMasterMaintenance": {
+      "commonLabel": {
+        "destinationSupplierCode": "出荷先サプライヤコード",
+        "destinationCode": "出荷先コード",
+        "destinationItemCode": "出荷先品番",
+        "destinationProductionType": "出荷先生産区分",
+        "itemCode": "在庫品番",
+        "productionType": "生産区分",
+        "itemName": "品目名",
+        "supplierCode": "在庫サプライヤコード",
+        "packagingCode": "荷姿コード",
+        "throughListPrintType": "スルーリスト発行タイプ",
+        "itemCapacity": "収容数",
+        "stockShortageShippingSlipType": "在庫不足出荷指示タイプ",
+        "itemTag": "現品票",
+        "deliverySlip": "納品書",
+        "partsLabel": "パーツラベル",
+        "partsInnerItemCapacity": "パーツ内装収容数",
+        "innerPartsLabel": "パーツ内装ラベル",
+        "efu": "エフ",
+        "shippingLabel": "出荷ラベル",
+        "supplyCorrection": "支給引取明細",
+        "formatType": "指定フォーマットタイプ",
+        "reportPattern": "帳票パターン",
+        "deliverySlipSupplySlip": "納品書・支給書発行タイプ",
+        "fInspectionRequirement": "検査対象フラグ",
+        "fRefillRequirement": "詰替対象フラグ",
+        "fPackingRequirement": "梱包対象フラグ"
+      }
+    },
+    "materialMasterMaintenance": {
+      "commonLabel": {
+        "material": "資材",
+        "materialCategory": "資材種別",
+        "materialProcurementType": "資材発注区分",
+        "generalSpecific": "汎用/専用",
+        "totalMaterialVendor": "発注先使用数",
+        "supplier": "在庫サプライヤ",
+        "materialSize": "サイズ（mm）",
+        "totalPackaging": "被使用数（参考）",
+        "unusedMaterial": "荷姿未設定",
+        "addMaterial": "資材登録",
+        "materialCode": "資材コード",
+        "materialName": "資材名",
+        "materialShort": "資材略称",
+        "supplierCode": "在庫サプライヤコード",
+        "supplierName": "在庫サプライヤ名"
+      }
+    },
+    "materialMasterMaintenanceDetail": {
+      "title": {
+        "materialMasterMaintenanceDetail": "資材別発注先設定"
+      },
+      "commonLabel": {
+        "materialCode": "資材コード",
+        "materialName": "資材名",
+        "materialCategory": "資材種別",
+        "materialVendor": "資材発注先",
+        "vendorMaterialCode": "発注先資材コード",
+        "addMaterialVendor": "資材発注先登録",
+        "materialVendorCode": "資材発注先コード",
+        "materialVendorName": "資材発注先名"
+      }
+    },
+    "materialMasterPackagingList": {
+      "title": {
+        "materialMasterPackagingList": "資材使用荷姿参照"
+      },
+      "commonLabel": {
+        "materialCode": "資材コード",
+        "materialName": "資材名",
+        "packaging": "荷姿",
+        "supplier": "在庫サプライヤ",
+        "standardMaterialQuantity": "標準資材数量"
+      }
+    },
+    "materialVendorMasterMaintenance": {
+      "commonLabel": {
+        "materialVendor": "資材発注先",
+        "totalMaterial": "取扱資材",
+        "documentUrl": "発注手順資料URL",
+        "countryCode": "国コード",
+        "zipCode": "郵便番号",
+        "address1": "住所１",
+        "address2": "住所２",
+        "countryNo": "国番号",
+        "phoneNo": "電話番号",
+        "faxNo": "FAX番号",
+        "personDepartmentName": "担当者所属部署名称",
+        "personName": "担当者氏名",
+        "cityCode": "市区町村コード",
+        "email": "メールアドレス",
+        "paymentDestinationCode": "支払先コード",
+        "addMaterialVendor": "資材発注先登録",
+        "materialVendorCode": "資材発注先コード",
+        "materialVendorName": "資材発注先名"
+      }
+    },
+    "materialVendorMasterMaintenanceDetail": {
+      "title": {
+        "materialVendorMasterMaintenanceDetail": "発注先別資材設定"
+      },
+      "commonLabel": {
+        "materialVendorCode": "資材発注先コード",
+        "materialVendorName": "資材発注先名",
+        "material": "資材",
+        "vendorMaterialCode": "発注先資材コード",
+        "addMaterial": "資材登録",
+        "materialCode": "資材コード",
+        "materialName": "資材名"
+      }
+    },
+    "materialUnitPriceRegister": {
+      "commonLabel": {
+        "materialVendorCode": "資材発注先コード",
+        "materialVendorName": "資材発注先名",
+        "memo": "メモ",
+        "material": "資材",
+        "vendorMaterialCode": "発注先資材コード",
+        "lastMaterialCostUnitPrice": "前回資材単価",
+        "newMaterialCostUnitPrice": "今回適用単価",
+        "differential": "差額"
+      },
+      "button": {
+        "viewHistory": "履歴表示",
+        "addMaterial": "購入資材追加"
+      }
+    },
+    "materialUnitPriceHistory": {
+      "title": {
+        "materialUnitPriceHistory": "発注先資材単価登録履歴"
+      },
+      "commonLabel": {
+        "materialVendorCode": "資材発注先コード",
+        "materialVendorName": "資材発注先名",
+        "applicationDate": "適用日",
+        "memo": "メモ",
+        "detail": "詳細"
+      }
+    },
+    "materialUnitPriceHistoryDetail": {
+      "title": {
+        "materialUnitPriceHistoryDetail": "発注先資材単価履歴詳細"
+      },
+      "commonLabel": {
+        "materialVendorCode": "資材発注先コード",
+        "materialVendorName": "資材発注先名",
+        "material": "資材",
+        "vendorMaterialCode": "発注先資材コード",
+        "lastMaterialCostUnitPrice": "前回資材単価",
+        "newMaterialCostUnitPrice": "今回適用単価",
+        "differential": "差額"
+      }
+    },
+    "masterPackingList": {
+      "commonLabel": {
+        "packaging": "荷姿",
+        "supplier": "在庫サプライヤ",
+        "caseSize": "サイズ（mm）",
+        "caseCapacity": "ケース容積（m3）",
+        "useMaterialQuantity": "使用資材",
+        "packagingCode": "荷姿コード",
+        "packagingName": "荷姿名称",
+        "packingMaterialConfiguration": "資材構成未設定"
+      }
+    },
+    "masterPackingAddModal": {
+      "commonLabel": {
+        "addPackaging": "荷姿追加",
+        "packagingCode": "荷姿コード",
+        "supplierCode": "在庫サプライヤコード",
+        "caseSize": "サイズ（mm）",
+        "packagingName": "荷姿名称"
+      }
+    },
+    "masterPackagingMaterialList": {
+      "commonLabel": {
+        "packagingCode": "荷姿コード",
+        "packagingName": "荷姿名称",
+        "supplier": "在庫サプライヤ",
+        "material": "資材",
+        "materialCategory": "資材種別",
+        "materialProcurementType": "資材発注区分",
+        "standardMaterialQuantity": "使用資材数"
+      },
+      "title": {
+        "masterPackagingMaterial": "荷姿別資材マスタ　メンテナンス"
+      }
+    },
+    "masterPackagingPackingMaterialAddModal": {
+      "commonLabel": {
+        "selectMaterial": "資材選択",
+        "materialCode": "資材コード",
+        "materialCategory": "資材種別",
+        "materialVendor": "発注先",
+        "material": "資材",
+        "materialProcurementType": "資材発注区分",
+        "standardMaterialQuantity": "使用資材数",
+        "supplier": "在庫サプライヤ",
+        "caseSize": "サイズ（mm）"
+      }
+    },
+    "purchasingMaterialList": {
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "materialVendor": "発注先",
+        "slipNo": "納品番号",
+        "materialDeliveryDate": "納入日",
+        "materialCostPrice": "金額（税抜）",
+        "closingProcess": "月締処理",
+        "closed": "締済",
+        "notClose": "締未"
+      },
+      "tab": {
+        "listPurchasingMaterial": "資材購入一覧",
+        "listProvidingMaterial": "資材支給一覧"
+      }
+    },
+    "purchasingMaterialAddandUpdate": {
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "registerPurchasingMaterial": "資材購入登録",
+        "updatePurchasingMaterial": "資材購入更新",
+        "materialVendor": "発注先",
+        "slipNo": "納品番号",
+        "materialDeliveryDate": "納入日",
+        "totalMaterialCostPrice": "金額計",
+        "material": "資材",
+        "materialVendorCode": "発注先使用コード",
+        "materialCostUnitPrice": "単価",
+        "materialResultQuantity": "数量",
+        "materialCostPrice": "金額（税抜）",
+        "summary": "摘要",
+        "referPurchasingMaterial": "資材購入参照",
+        "materialProcurementType": "資材発注区分"
+      }
+    },
+    "providingMaterialList": {
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "materialSupplySupplier": "資材支給サプライヤ",
+        "supplyDate": "支給日",
+        "memo": "メモ",
+        "closingProcess": "月締処理",
+        "closed": "締済",
+        "notClose": "締未"
+      },
+      "tab": {
+        "listPurchasingMaterial": "資材購入一覧",
+        "listProvidingMaterial": "資材支給一覧"
+      }
+    },
+    "providingMaterialAddandUpdate": {
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "registerProvidingMaterial": "資材サプライヤ支給登録",
+        "updateProvidingMaterial": "資材サプライヤ支給更新",
+        "materialSupplySupplier": "資材支給サプライヤ",
+        "supplyDate": "支給日",
+        "memo": "メモ",
+        "material": "資材",
+        "materialResultQuantity": "支給数量",
+        "summary": "摘要",
+        "referProvidingMaterial": "資材サプライヤ支給参照",
+        "materialProcurementType": "資材発注区分"
+      }
+    },
+    "logAcquisitionScreenCNA": {
+      "commonLabel": {
+        "searchCondition": "検索条件",
+        "logType": "ログタイプ",
+        "programName": "プログラム名",
+        "operationUserRecordID": "操作者",
+        "operationDateTime": "操作日時",
+        "warehouseCode": "拠点コード",
+        "operationPoint": "操作箇所",
+        "operationType": "操作タイプ",
+        "operationUrl": "操作URL",
+        "connectionIpAddress": "接続元IPアドレス",
+        "operationMessage": "操作記録",
+        "warehouseGroupCode": "拠点グループコード",
+        "event": "操作イベント"
+      },
+      "datePicker": {
+        "today": "今日",
+        "last7Days": "過去7日間",
+        "last14Days": "過去14日間",
+        "last30Days": "過去30日間"
+      },
+      "link": {
+        "detail": "詳細"
+      },
+      "tab": {
+        "cnaLog": "CNAログ",
+        "htLog": "HTログ"
+      }
+    },
+    "logAcquisitionScreenCNAAddModal": {
+      "title": {
+        "operationMessageModal": "操作記録モーダル",
+        "warehouseCode": "拠点コード",
+        "operationPoint": "操作箇所"
+      }
+    },
+    "logAcquisitionScreenHT": {
+      "commonLabel": {
+        "searchCondition": "検索条件",
+        "logType": "ログタイプ",
+        "htOperationType": "HT操作タイプ",
+        "operationFunction": "操作機能名",
+        "terminalSerial": "端末シリアル番号",
+        "operationUserRecordID": "操作者",
+        "operationDateTime": "操作日時",
+        "warehouseCode": "拠点コード",
+        "operationMenuCode": "操作メニューコード",
+        "operationUrl": "操作URL",
+        "connectionIpAddress": "接続元IPアドレス",
+        "operationMessage": "操作記録"
+      },
+      "datePicker": {
+        "today": "今日",
+        "last7Days": "過去7日間",
+        "last14Days": "過去14日間",
+        "last30Days": "過去30日間"
+      },
+      "link": {
+        "detail": "詳細"
+      },
+      "tab": {
+        "cnaLog": "CNAログ",
+        "htLog": "HTログ",
+        "warehouseName": "拠点名",
+        "operationMenuName": "操作メニュー名",
+        "operationError": "操作エラー名",
+        "itemName": "項目名",
+        "barcodeContent": "バーコード・QR内容・入力値",
+        "barcodeType": "バーコード種類"
+      }
+    },
+    "materialStockInquiryQuantityAndPrice": {
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "targetYearMonth": "対象年月",
+        "materialCode": "資材コード",
+        "materialSupplySupplier": "資材支給サプライヤ",
+        "material": "資材",
+        "openingBalance": "期首",
+        "inbound": "受入",
+        "purchase": "購入",
+        "advance": "立替",
+        "provision": "支給",
+        "totalInbound": "受入計",
+        "outbound": "払出",
+        "consumption": "消費",
+        "shipment": "出荷",
+        "resale": "転売",
+        "return": "返品",
+        "closure": "廃棄",
+        "totalOutbound": "払出計",
+        "inventoryAdjustment": "棚差調整",
+        "closingBalance": "期末 (現在庫)",
+        "materialCategory": "資材種別",
+        "materialProcurementType": "資材発注区分",
+        "totalMaterialVendor": "発注先使用数"
+      },
+      "tab": {
+        "quantityOnly": "数量のみ",
+        "priceOnly": "金額のみ",
+        "quantityAndPrices": "数量と金額"
+      }
+    },
+    "materialStockInquiry": {
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "materialCode": "資材コード",
+        "materialCategory": "資材種別",
+        "materialProcurementType": "資材発注区分",
+        "materialSupplySupplier": "資材支給サプライヤ",
+        "vendor": "発注先",
+        "targetYearMonth": "対象年月",
+        "materialBalanceType": "資材受払タイプ",
+        "purchaseAndProvision": "購入・支給",
+        "shipment": "出荷",
+        "closure": "廃棄",
+        "inventoryAdjustment": "棚差調整",
+        "quantity": "数量",
+        "price": "金額",
+        "openingBalance": "期首",
+        "inbound": "受入",
+        "purchase": "購入",
+        "advance": "立替",
+        "provision": "支給",
+        "totalInbound": "受入計",
+        "outbound": "払出",
+        "consumption": "消費",
+        "resale": "転売",
+        "return": "返品",
+        "totalOutbound": "払出計",
+        "closingBalance": "期末（現在庫）",
+        "balanceDate": "受払日",
+        "balanceType": "受払区分",
+        "summary": "摘要"
+      }
+    },
+    "materialBalanceInquiry": {
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "targetYearMonth": "対象年月",
+        "shipment": "出荷",
+        "resale": "転売",
+        "return": "返品",
+        "closure": "廃棄"
+      }
+    },
+    "materialBalanceInquiryRegister": {
+      "title": {
+        "materialBalanceInquiryRegister": "資材個別払出登録"
+      },
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "targetYearMonth": "対象年月",
+        "balanceDate": "受払日",
+        "material": "資材",
+        "materialCategory": "資材種別",
+        "materialProcurementType": "資材発注区分",
+        "generalSpecific": "汎用/専用",
+        "materialSupplySupplier": "資材支給サプライヤ",
+        "materialBalanceType": "資材受払タイプ",
+        "materialResultQuantity": "資材実績数",
+        "summary": "摘要",
+        "memo": "メモ"
+      }
+    },
+    "materialBalanceInquiryRegisterModal": {
+      "title": {
+        "registerMaterialBalance": "資材個別受払登録明細"
+      },
+      "commonLabel": {
+        "balanceDate": "受払日",
+        "material": "資材",
+        "materialCategory": "資材種別",
+        "materialProcurementType": "資材発注区分",
+        "materialSupplySupplier": "資材支給サプライヤ",
+        "materialBalanceType": "資材受払タイプ",
+        "materialResultQuantity": "資材実績数",
+        "shippingDestination": "出荷先",
+        "resaleDestination": "転売先",
+        "returnDestination": "返品先",
+        "summary": "摘要",
+        "memo": "メモ"
+      }
+    },
+    "materialInventory": {
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "materialInventoryDate": "資材棚卸日",
+        "memo": "メモ",
+        "inventoryCount": "棚卸件数",
+        "confirmStatus": "確定ステータス",
+        "deleteNote": "注意：確定済・無効の場合は削除不可になります。"
+      },
+      "button": {
+        "materialInventoryRegister": "棚卸登録",
+        "confirmProcess": "確定処理",
+        "areaMaterialInventoryStatus": "エリア別資材棚卸状況"
+      }
+    },
+    "materialInventoryAdd": {
+      "title": {
+        "materialInventoryAdd": "棚卸対象資材登録（新規）"
+      },
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "materialInventoryDate": "資材棚卸日",
+        "memo": "メモ",
+        "area": "エリア",
+        "lastInventoryDate": "最終棚卸日",
+        "pending": "未実施",
+        "moreThan180Days": "180日以上前",
+        "moreThan90Days": "90日以上前",
+        "moreThan30Days": "30日以上前",
+        "lessThan30Days": "30日未満",
+        "all": "全て",
+        "target": "対象",
+        "material": "資材",
+        "materialCategory": "資材種別",
+        "materialProcurementType": "資材発注区分",
+        "generalSpecific": "汎用/専用",
+        "materialSupplySupplier": "資材支給サプライヤ",
+        "areaCount": "エリア数",
+        "pastInventoryDate": "前回棚卸日",
+        "inventoryLogicStockQuantity": "棚卸論理在庫数",
+        "inventoryActualStockInputQuantity": "棚卸実在庫入力数"
+      },
+      "button": {
+        "updateLogicalInventoryQuantity": "論理在庫数更新"
+      }
+    },
+    "materialInventoryUpdate": {
+      "title": {
+        "materialInventoryUpdate": "棚卸対象資材登録（更新）"
+      },
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "materialInventoryDate": "資材棚卸日",
+        "memo": "メモ",
+        "area": "エリア",
+        "lastInventoryDate": "最終棚卸日",
+        "pending": "未実施",
+        "moreThan180Days": "180日以上前",
+        "moreThan90Days": "90日以上前",
+        "moreThan30Days": "30日以上前",
+        "lessThan30Days": "30日未満",
+        "target": "対象",
+        "material": "資材",
+        "materialCategory": "資材種別",
+        "materialProcurementType": "資材発注区分",
+        "generalSpecific": "汎用/専用",
+        "materialSupplySupplier": "資材支給サプライヤ",
+        "areaCount": "エリア数",
+        "pastInventoryDate": "前回棚卸日",
+        "inventoryLogicStockQuantity": "棚卸論理在庫数",
+        "inventoryActualStockInputQuantity": "棚卸実在庫入力数"
+      }
+    },
+    "materialInventoryAreaStatus": {
+      "title": {
+        "materialInventoryAreaStatus": "拠点エリア別資材棚卸状況"
+      },
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "areaCode": "エリアコード",
+        "lastInventoryDateMaterialQuantity": "最終棚卸日別資材数",
+        "summary": "管理資材数",
+        "pending": "未実施",
+        "moreThan180Days": "180日以上前",
+        "moreThan90Days": "90日以上前",
+        "moreThan30Days": "30日以上前",
+        "lessThan30Days": "30日未満",
+        "lastInventoryDate": "最終棚卸日"
+      }
+    },
+    "materialInventoryRegister": {
+      "title": {
+        "materialInventoryRegister": "資材棚卸実績登録"
+      },
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "materialInventoryDate": "資材棚卸日",
+        "memo": "メモ",
+        "material": "資材",
+        "code": "コード",
+        "name": "名称",
+        "materialCategory": "資材種別",
+        "materialProcurementType": "資材発注区分",
+        "generalSpecific": "汎用/専用",
+        "materialSupplySupplier": "資材支給サプライヤ",
+        "area": "エリア",
+        "pastInventoryDate": "前回棚卸日",
+        "inventoryActualStockInputQuantity": "棚卸実在庫入力数"
+      }
+    },
+    "materialInventoryConfirm": {
+      "title": {
+        "materialInventoryConfirm": "資材棚卸確定処理"
+      },
+      "commonLabel": {
+        "confirmed": "確定済",
+        "warehouseCode": "拠点コード",
+        "materialInventoryDate": "資材棚卸日",
+        "memo": "メモ",
+        "gapRateThreshold": "差異率閾値",
+        "material": "資材",
+        "code": "コード",
+        "name": "名称",
+        "materialCategory": "資材種別",
+        "materialProcurementType": "資材発注区分",
+        "generalSpecific": "汎用/専用",
+        "materialSupplySupplier": "資材支給サプライヤ",
+        "pastInventoryDate": "前回棚卸日",
+        "inventoryLogicStockQuantity": "棚卸論理在庫数",
+        "inventoryActualStockInputQuantity": "棚卸実在庫入力数",
+        "inventoryGapNumber": "棚卸差異数",
+        "inventoryGapRate": "棚卸差異率",
+        "sortOrder": "ソート順",
+        "typeName": "種別・名称",
+        "nameOnly": "名称のみ",
+        "showAll": "全て表示",
+        "noActualQuantity": "実棚数未入力"
+      },
+      "button": {
+        "printExcel2": "一覧印刷EXCEL（エリア含む）",
+        "confirmProcess": "確定処理"
+      }
+    },
+    "settingAreaMaterial": {
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "material": "資材",
+        "materialCategory": "資材種別",
+        "materialProcurementType": "資材発注区分",
+        "generalSpecific": "汎用/専用",
+        "supplier": "サプライヤ",
+        "handleTarget": "取扱対象",
+        "areaCode": "エリアコード",
+        "target": "対象",
+        "notTarget": "対象外"
+      }
+    },
+    "areaMaster": {
+      "commonLabel": {
+        "addArea": "エリア追加",
+        "areaCode": "エリアコード",
+        "areaName": "エリア名",
+        "lastUpdatedBy": "最終更新者",
+        "locationManagementType": "ロケーション管理タイプ",
+        "updateDateTime": "更新日時",
+        "temperatureCode": "保管温度帯コード",
+        "remarks": "備考",
+        "warehouseCode": "拠点コード",
+        "inventorySupplierCode": "在庫サプライヤコード",
+        "warehouseName": "拠点名",
+        "addNewLocation": "ロケーション追加",
+        "whCode": "拠点コード",
+        "location": "ロケーション",
+        "locationCode": "ロケーションコード",
+        "locationLine": "列",
+        "locationBay": "連",
+        "locationLevel": "段",
+        "locationFrontage": "間口",
+        "pickingOrder": "順路",
+        "locationFormatType": "ロケーションフォーマットタイプ",
+        "loadingType": "格納タイプ",
+        "enableStockStatusCode": "許可在庫状態コード",
+        "allocationEnable": "引当許可フラグ",
+        "itemConsolidationEnable": "品目混載許可フラグ",
+        "lotConsolidationEnable": "ロット混載許可フラグ",
+        "receiveDateConsolidationEnable": "入庫日付混載許可フラグ",
+        "productionDateConsolidationEnable": "製造日付混載許可フラグ",
+        "supplierCode": "サプライヤコード",
+        "itemCode": "在庫品番",
+        "productionType": "在庫生産区分",
+        "locationCapacity": "ロケーション容積サイズ(m3)",
+        "limitWeight": "荷重制限(kg)",
+        "freeCapacity": "空き容積(m3)",
+        "space": "面積(m2)"
+      }
+    },
+    "clientMaster": {
+      "commonLabel": {
+        "accountsReceivableCode": "売掛先コード",
+        "address1": "住所１",
+        "address2": "住所２",
+        "clientCode": "顧客コード",
+        "clientName": "顧客名",
+        "clientNameJp": "顧客名（漢字）",
+        "clientNameShort": "顧客名（略称）",
+        "clientNameUs": "顧客名（英字）",
+        "countryCode": "国コード",
+        "countryNo": "国番号",
+        "inventoryCounts": "実棚読取作業回数",
+        "invoiceDate": "締め日",
+        "lastUpdatedBy": "最終更新者",
+        "remarks": "備考",
+        "personName": "担当者氏名",
+        "phoneNo": "電話番号",
+        "updateDateTime": "更新日時",
+        "salesforceUrl": "セールスフォースURL",
+        "zipCode": "郵便番号"
+      }
+    },
+    "sectionMaster": {
+      "commonLabel": {
+        "addSection": "顧客部門追加",
+        "address1": "住所１",
+        "address2": "住所２",
+        "countryCode": "国コード",
+        "countryNo": "国番号",
+        "sectionCode": "顧客部門コード",
+        "sectionName": "顧客部門名",
+        "sectionNameShort": "顧客部門名（略称）",
+        "phoneNo": "電話番号",
+        "remarks": "備考",
+        "lastUpdatedBy": "最終更新者",
+        "updateDateTime": "更新日時",
+        "zipCode": "郵便番号"
+      }
+    },
+    "supplierMaster": {
+      "commonLabel": {
+        "addSupplier": "サプライヤ追加",
+        "clientCode": "顧客コード",
+        "clientName": "顧客名",
+        "itemCodeType": "品番区分",
+        "lastUpdatedBy": "最終更新者",
+        "lotShippingHistoryRequirement": "ロット別出荷履歴対象フラグ",
+        "partsLabelPrintType": "パーツラベル発行タイプ",
+        "updateDateTime": "更新日時",
+        "remarks": "備考",
+        "receiveMatchingManagementType": "入庫突合管理タイプ",
+        "receiveSerialNoLabelPrintType": "入庫連番ラベル発行タイプ",
+        "shippingSlipPrintType": "出荷指示書発行タイプ",
+        "itemTag": "現品票",
+        "deliverySlip": "納品書",
+        "partsLabel": "パーツラベル",
+        "efu": "エフ",
+        "shippingLabel": "出荷ラベル",
+        "supplyCorrection": "支給引取明細",
+        "formatType": "指定フォーマットタイプ",
+        "defaultWarehouseCode": "デフォルト拠点コード",
+        "receiveRequirement": "入庫対象フラグ",
+        "reportPattern": "帳票パターン",
+        "deliverySlipSupplySlip": "納品書・支給書発行タイプ",
+        "supplierCode": "在庫サプライヤコード",
+        "stockManagementType": "在庫管理タイプ",
+        "stockShortageShippingSlipType": "在庫不足出荷指示タイプ",
+        "whGroupCode": "拠点グループコード",
+        "workInstructionAuto": "作業指示自動作成フラグ",
+        "resultAggregateType": "集計実績区分",
+        "destinationProductionTypeRequirementTrial": "出荷先生産区分対象フラグ_試作",
+        "destinationProductionTypeRequirementMass": "出荷先生産区分対象フラグ_量産",
+        "destinationProductionTypeRequirementKd": "出荷先生産区分対象フラグ_KD",
+        "destinationProductionTypeRequirementParts": "出荷先生産区分対象フラグ_パーツ",
+        "destinationProductionTypeRequirementSupply": "出荷先生産区分対象フラグ_支給",
+        "operationRequirement": "運用対象フラグ",
+        "pickingListPrintType": "ピッキングリスト発行タイプ",
+        "throughListPrintType": "スルーリスト発行タイプ"
+      }
+    },
+    "stockInquiry": {
+      "commonLabel": {
+        "afterWorkQuantity": "作業後数量",
+        "areaCode": "エリアコード",
+        "beforeRefill": "詰替前",
+        "beforePacking": "梱包前",
+        "beforeInspection": "検査前",
+        "boxQuantity": "箱数",
+        "carryOver": "繰越（当)",
+        "currentShippingInventory": "出庫 (当)",
+        "currentStockInInventory": "入庫 (当)",
+        "currentStock": "在庫",
+        "currentStockDetailGrid": "在庫（当)",
+        "lastMoveInDate": "入庫最終移動",
+        "lastMoveOutDate": "出庫最終移動日",
+        "inquiryDetailScreen": "在庫詳細画面",
+        "immovableDays": "不動日数",
+        "delete": "削除",
+        "displayOptions": "表示オプション",
+        "goodProductQuantity": "良品",
+        "groupedByLotNo": "ロット",
+        "groupedByLocation": "ロケーション",
+        "groupedByReceiveDate": "入庫実績日",
+        "stockQuantityHold": "HOLD",
+        "locationCode": "ロケーションコード",
+        "lotNo": "ロット",
+        "includeDeletedItem": "削除済のデータを含める",
+        "inventoryInformationPerItem": "品目単位在庫情報",
+        "inventoryInformationPerLocation": "ロケーション単位在庫数",
+        "item": "在庫品番",
+        "itemCode": "在庫品番",
+        "itemName": "品目名",
+        "itemDeleteFlag": "削除",
+        "lastMoveDate": "最終移動期間（最終移動日）",
+        "lastMoveDateOnGrid": "最終移動日",
+        "notStoredBeforeHousing": "入庫前未格納",
+        "productionType": "生産区分",
+        "reservableQuantity": "引当可能数",
+        "receiveDate": "入庫実績日",
+        "shippingReservedQuantity": "出荷引当数",
+        "shippable": "出荷可能",
+        "supplier": "サプライヤ",
+        "supplierCode": "メーカー",
+        "supplierCodeOnGrid": "サプライヤコード",
+        "supplierName": "仕入先名",
+        "supplierNameOnGrid": "サプライヤ名",
+        "supplierCodeOnDetailGrid": "サプライヤコード",
+        "stock": "在庫",
+        "stockQuantity": "現在庫数",
+        "stockQuantityBadProduct": "不良品",
+        "stockQuantityBeforeInspection": "検査前",
+        "totalStock": "在庫計",
+        "warehouseCode": "拠点",
+        "warehousingNotStoredQuantity": "入庫前未格納",
+        "workQuantity": "作業数量",
+        "afterWorkNumber": "作業後数",
+        "arrival": "入荷",
+        "beforeInspectionPossibleReservation": "検査前（引当可）",
+        "canBeShipped": "出荷可",
+        "expectedArrival": "入荷予定",
+        "holdNotReserved": "HOLD（引当不可）",
+        "immediateShipment": "即出荷",
+        "inspection": "検査",
+        "packing": "梱包",
+        "refill": "詰替",
+        "shipping": "出荷",
+        "shippingReservation": "出荷引当",
+        "stockReceiptCheck": "入庫チェック",
+        "workNumber": "作業数",
+        "details": "詳細",
+        "stockDetail": "在庫詳細"
+      },
+      "button": {
+        "exportStockCertificate": "在庫証明書出力"
+      },
+      "dropdownOrderOptions": {
+        "default": "デフォルト（品目順）",
+        "warehouseOrder": "拠点順"
+      }
+    },
+    "warehouseMaster": {
+      "commonLabel": {
+        "address1": "住所１",
+        "address2": "住所２",
+        "addWarehouse": "拠点追加",
+        "cityCode": "市区町村コード",
+        "companyName": "会社名",
+        "countryCode": "国コード",
+        "countryNo": "国番号",
+        "lastUpdatedBy": "最終更新者",
+        "logisticsCompany": "物流企業",
+        "logisticsCompanyCode": "物流企業コード",
+        "logisticsCompanyName": "物流企業名",
+        "personDepartmentName": "担当者所属部署名称",
+        "personName": "担当者氏名",
+        "personPostName": "担当者役職名称",
+        "phoneNo": "電話番号",
+        "updateDateTime": "更新日時",
+        "remarks": "備考",
+        "whCode": "拠点コード",
+        "whName": "拠点名",
+        "whNameShort": "拠点名（略称）",
+        "whGroup": "拠点グループ",
+        "whGroupCode": "拠点グループコード",
+        "whGroupName": "拠点グループ名",
+        "zipCode": "郵便番号",
+        "sealInformation1": "印影情報１",
+        "sealInformation2": "印影情報２",
+        "sealInformation3": "印影情報３"
+      }
+    },
+    "warehouseGroupMaster": {
+      "commonLabel": {
+        "addWarehouseGroup": "拠点グループ追加",
+        "countryCode": "国コード",
+        "lastUpdatedBy": "最終更新者",
+        "updateDateTime": "更新日時",
+        "useCurrencyCode": "使用通貨コード",
+        "useTimeZone": "使用タイムゾーン",
+        "remarks": "備考",
+        "whCode": "拠点コード",
+        "whName": "拠点名",
+        "whNameShort": "拠点名（略称）",
+        "whGroup": "拠点グループ",
+        "whGroupCode": "拠点グループコード",
+        "whGroupName": "拠点グループ名"
+      }
+    },
+    "monthlyMaterialConsumptionInquirySupplier": {
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "targetYearMonth": "対象年月",
+        "bySupplier": "サプライヤ別",
+        "byDestination": "出荷先別",
+        "stockSupplier": "在庫サプライヤ",
+        "material": "資材",
+        "totalMaterialResultQuantity": "資材実績数計",
+        "totalMaterialCostUnitPrice": "資材原価計"
+      }
+    },
+    "monthlyMaterialConsumptionInquirySupplierList": {
+      "title": {
+        "monthlyMaterialConsumptionInquirySupplierList": "月別サプライヤ消費資材原価一覧"
+      },
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "stockSupplier": "在庫サプライヤ",
+        "targetYearMonth": "対象年月",
+        "totalMaterialResultQuantity": "資材実績数計",
+        "totalMaterialCostPrice": "資材原価計",
+        "material": "資材",
+        "materialCategory": "資材種別",
+        "materialProcurementType": "資材発注区分",
+        "materialSupplySupplier": "資材支給サプライヤ",
+        "orderQuantity": "オーダー数",
+        "materialResultQuantity": "資材実績数",
+        "materialCostPrice": "資材原価"
+      }
+    },
+    "monthlyMaterialConsumptionInquirySupplierDetail": {
+      "title": {
+        "monthlyMaterialConsumptionInquirySupplierDetail": "月別サプライヤ消費資材原価明細"
+      },
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "stockSupplier": "在庫サプライヤ",
+        "targetYearMonth": "対象年月",
+        "materialResultQuantity": "資材実績数",
+        "materialCostPrice": "資材原価",
+        "material": "資材",
+        "materialCategory": "資材種別",
+        "materialProcurementType": "資材発注区分",
+        "materialSupplySupplier": "資材支給サプライヤ",
+        "shippingDate": "出荷日",
+        "slipNo": "納品番号",
+        "deliveryPlace": "納入場所",
+        "destination": "出荷先",
+        "destinationItemCode": "出荷先品番",
+        "destinationProductionType": "出荷先生産区分",
+        "resultBoxQuantity": "実績箱数",
+        "resultQuantity": "実績数",
+        "materialCostUnitPrice": "資材原価単価",
+        "destinationSupplier": "出荷先サプライヤ"
+      }
+    },
+    "monthlyMaterialConsumptionInquiryDestination": {
+      "title": {
+        "monthlyMaterialConsumptionInquiry": "月別消費資材原価問合せ"
+      },
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "targetYearMonth": "対象年月",
+        "bySupplier": "サプライヤ別",
+        "byDestination": "出荷先別",
+        "destination": "出荷先",
+        "material": "資材",
+        "totalMaterialResultQuantity": "資材実績数計",
+        "totalMaterialCostUnitPrice": "資材原価計"
+      }
+    },
+    "monthlyMaterialConsumptionInquiryDestinationList": {
+      "title": {
+        "monthlyMaterialConsumptionInquiryDestinationList": "月別出荷先消費資材原価一覧"
+      },
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "destination": "出荷先",
+        "targetYearMonth": "対象年月",
+        "totalMaterialResultQuantity": "資材実績数計",
+        "totalMaterialCostPrice": "資材原価計",
+        "material": "資材",
+        "materialCategory": "資材種別",
+        "materialProcurementType": "資材発注区分",
+        "materialSupplySupplier": "資材支給サプライヤ",
+        "orderQuantity": "オーダー数",
+        "materialResultQuantity": "資材実績数",
+        "materialCostPrice": "資材原価"
+      }
+    },
+    "monthlyMaterialConsumptionInquiryDestinationDetail": {
+      "title": {
+        "monthlyMaterialConsumptionInquiryDestinationDetail": "月別出荷先消費資材原価明細"
+      },
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "destination": "出荷先",
+        "targetYearMonth": "対象年月",
+        "materialResultQuantity": "資材実績数",
+        "materialCostPrice": "資材原価",
+        "material": "資材",
+        "materialCategory": "資材種別",
+        "materialProcurementType": "資材発注区分",
+        "materialSupplySupplier": "資材支給サプライヤ",
+        "shippingDate": "出荷日",
+        "slipNo": "納品番号",
+        "deliveryPlace": "納入場所",
+        "stockSupplier": "在庫サプライヤ",
+        "destinationItemCode": "出荷先品番",
+        "destinationProductionType": "出荷先生産区分",
+        "resultBoxQuantity": "実績箱数",
+        "resultQuantity": "実績数",
+        "materialCostUnitPrice": "資材原価単価",
+        "destinationSupplier": "出荷先サプライヤ"
+      }
+    },
+    "jobConfigMaster": {
+      "commonLabel": {
+        "impExpType": "ジョブ\nタイプ",
+        "jobName": "ジョブ名",
+        "destination": "出荷先",
+        "warehouseGroup": "拠点\nグループ",
+        "client": "顧客",
+        "code": "コード",
+        "name": "名称",
+        "supplier": "在庫サプライヤ",
+        "status": "ジョブを有効にする",
+        "statusOnGrid": "ジョブ\n有効・無効",
+        "activeDateRange": "ジョブ有効期間",
+        "activeFrom": "ジョブ有効期間",
+        "activeTo": "有効終了日",
+        "folderPath": "S3フォルダーパス",
+        "fileName": "ファイル名称",
+        "schedule": "実行\nスケジュール",
+        "executionStartTime": "開始時間",
+        "executionEndTime": "終了時間",
+        "remarks": "備考",
+        "sortType": "取込ファイル並び順",
+        "lastUpdatedBy": "最終更新者",
+        "jobActiveDateTime": "有効開始日",
+        "jobExpireDateTime": "有効終了日",
+        "updateDateTime": "更新日時",
+        "addJobConfig": "新規ジョブ",
+        "useTimeZone": "使用\nタイムゾーン",
+        "steps": "実行ステップ",
+        "userGroup": "エラー通知グループ",
+        "addToJob": "追加",
+        "executionTimeInterval": "間隔（分)",
+        "sendEmptyFile": "空ファイル送信を許可する",
+        "exportFrom": "送信ファイル取得先",
+        "exportRange": "他システムに送信日程",
+        "notificationSeverity": "ファイルがない場合の通知方法",
+        "dateInWeek": "曜日",
+        "runningDay": "実行日",
+        "moveIfDayOff": "実行日が非稼働日である場合の代行日",
+        "exportFolderPath": "送信フォルダーパス",
+        "exportChannel": "送信方法",
+        "recipients": "送信先",
+        "ccEmails": "CC",
+        "email": "メールアドレス",
+        "priority": "実行順",
+        "stepName": "ステップ名",
+        "stepFileName": "ファイル名称",
+        "stepFileType": "ファイルタイプ",
+        "stepFileExtension": "拡張子",
+        "stepFileNameFormat": "ファイル名フォーマット",
+        "stepGridTitle": "実行ステップ",
+        "editStepConfigs": "ステップ編集",
+        "addStepConfigs": "ステップ追加",
+        "exportNow": "エクスポート実行",
+        "onlyNewData": "新しいデータのみ",
+        "fromDate": "開始日",
+        "jobClassification": "ジョブ区分",
+        "toDate": "終了日",
+        "zipFileToggle": "圧縮する",
+        "zipFileName": "zipファイル名",
+        "zipFileFormat": "zipファイル名形式"
+      },
+      "sendEmptyFileOptions": {
+        "send": "送信",
+        "notSend": "送信しない"
+      },
+      "exportManuallyOptions": {
+        "yes": "はい",
+        "no": "いいえ"
+      }
+    },
+    "destinationMaster": {
+      "commonLabel": {
+        "accountsReceivableCode": "売掛先コード",
+        "addDestination": "出荷先追加",
+        "addSection": "顧客部門追加",
+        "address1": "住所１",
+        "address2": "住所２",
+        "clientCode": "顧客コード",
+        "clientName": "顧客名",
+        "clientNameJp": "顧客名（漢字）",
+        "clientNameShort": "顧客名（略称）",
+        "clientNameUs": "顧客名（英字）",
+        "countryCode": "国コード",
+        "countryNo": "国番号",
+        "destinationCode": "出荷先コード",
+        "inventoryCounts": "実棚読取作業回数",
+        "invoiceDate": "締め日",
+        "lastUpdatedBy": "最終更新者",
+        "remarks": "備考",
+        "personName": "担当者氏名",
+        "phoneNo": "電話番号",
+        "updateDateTime": "更新日時",
+        "salesforceUrl": "セールスフォースURL",
+        "sectionCode": "顧客部門コード",
+        "sectionName": "顧客部門名",
+        "destinationItemCodeDisplayType": "出荷先品目コード表示タイプ",
+        "itemTag": "現品票",
+        "reportFormatType": "指定フォーマットタイプ",
+        "reportPattern": "帳票パターン",
+        "deliverySlip": "納品書",
+        "deliverySlipSupplySlipPrintType": "納品書・支給書発行タイプ",
+        "onlyDeliverySlip": "納品書のみ",
+        "deliverySlipSupplySlip": "納品書・支給書",
+        "partsLabel": "パーツラベル",
+        "shippingLabel": "出荷ラベル",
+        "supplyCorrection": "支給引取明細",
+        "reportFormatTypeReportPattern": "帳票指定フォーマットタイプ/帳票パターン",
+        "zipCode": "郵便番号",
+        "displayTimeType": "表示時刻タイプ",
+        "displayTimeUnit": "表示時刻単位",
+        "deliveryPlaceDuplicateEnable": "納入場所重複許可フラグ",
+        "slideRequirement": "スライド対象フラグ"
+      }
+    },
+    "importRequest": {
+      "commonLabel": {
+        "client": "顧客",
+        "code": "コード",
+        "configDetails": "ジョブコンフィグ詳細",
+        "changePosition": "行をドラッグアンドドロップして位置を変更します。",
+        "destination": "出荷先",
+        "fileName": "ファイル名",
+        "name": "名称",
+        "lastUpdatedBy": "最終更新者",
+        "uploadType": "受信手法",
+        "updateDateTime": "更新日時",
+        "supplier": "サプライヤ",
+        "status": "ジョブステータス",
+        "statusOnGrid": "ジョブ\nステータス",
+        "tabTitle": "データ受信",
+        "jobConfig": "ジョブコンフィグ",
+        "jobName": "ジョブ名",
+        "warehouseGroup": "拠点グループ",
+        "fileUpload": "取込ファイル並び順",
+        "fileSelection": "ファイル選択",
+        "uploadPopupTitle": "ファイルアップロード",
+        "fileUploadDetail": "ファイル取込詳細",
+        "stepErrorHistoryDetails": "実行結果履歴詳細",
+        "step": "ステップ名",
+        "stepDetails": "ステップ詳細",
+        "stepStatus": "ステータス",
+        "errorHistory": "実行結果",
+        "action": "処理",
+        "updatedDate": "更新日",
+        "skipFile": "スキップ",
+        "viewHistoryDetails": "履歴閲覧",
+        "reRun": "再実行",
+        "reUploadFile": "再取込",
+        "newFile": "新ファイル名",
+        "reRunFromStep": "再実行ステップ",
+        "changeFile": "ファイル選択",
+        "import": "取込",
+        "stepName": "ステップ名",
+        "historyDetails": "履歴",
+        "message": "メッセージ",
+        "errorFile": "異常ファイル",
+        "date": "異常発生日時",
+        "downloadFile": "ダウンロード",
+        "sortByFileName": "ファイル名によりソート(A-Z)",
+        "jobClassification": "ジョブ区分",
+        "sortByUploadedDate": "ファイル更新日によりソート（昇順）",
+        "url": "実行URL",
+        "jsonFile": "実行結果JSON",
+        "responseFile": "実行結果ファイル",
+        "totalCount": "総合件数",
+        "succeededCount": "正常件数",
+        "errorCount": "エラー件数",
+        "warehouse": "拠点グループ",
+        "excludedCount": "対象外件数",
+        "deleteCount": "削除件数",
+        "cancelCount": "キャンセル件数",
+        "skipCount": "スキップ件数"
+      }
+    },
+    "materialByAreaRegistration": {
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "handleTarget": "取扱対象",
+        "target": "対象",
+        "notTarget": "対象外",
+        "material": "資材",
+        "materialCategory": "資材種別",
+        "materialProcurementType": "資材発注区分",
+        "generalSpecific": "汎用/専用",
+        "stockSupplier": "在庫サプライヤ",
+        "noNeedArea": "エリア設定なし",
+        "allow": "許可",
+        "notAllow": "禁止",
+        "settingArea": "設定エリア"
+      },
+      "Button": {
+        "listMaterialByArea": "エリア別対象資材一覧"
+      }
+    },
+    "materialByAreaSetting": {
+      "title": {
+        "materialByAreaSetting": "資材別エリア設定"
+      },
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "materialCode": "資材コード",
+        "noNeedArea": "エリア設定なし",
+        "allow": "許可",
+        "notAllow": "禁止",
+        "settingAreaNumber": "設定エリア数",
+        "targetArea": "対象エリア"
+      }
+    },
+    "areaByMaterialSetting": {
+      "title": {
+        "areaByMaterialSetting": "エリア別対象資材設定"
+      },
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "areaCode": "エリアコード",
+        "materialCode": "資材コード",
+        "material": "資材",
+        "materialCategory": "資材種別",
+        "materialProcurementType": "資材発注区分",
+        "generalSpecific": "汎用/専用",
+        "stockSupplier": "在庫サプライヤ"
+      }
+    },
+    "depoCodeConversionMaster": {
+      "commonLabel": {
+        "clientCode": "顧客コード",
+        "clientDepotCode": "顧客デポコード",
+        "warehouseCode": "拠点コード",
+        "supplierProductionType": "サプライヤ生産区分"
+      }
+    },
+    "depoCodeConversionRegister": {
+      "title": {
+        "depotCodeConversionRegister": "デポコード変換マスタ登録"
+      },
+      "commonLabel": {
+        "clientCode": "顧客コード",
+        "clientDepotCode": "顧客デポコード",
+        "warehouseCode": "拠点コード",
+        "supplierProductionType": "サプライヤ生産区分"
+      }
+    },
+    "customerCodeConversionMaster": {
+      "commonLabel": {
+        "clientCode": "顧客コード",
+        "customerCode": "得意先コード",
+        "warehouseGroupCode": "拠点グループコード",
+        "supplierCode": "サプライヤコード",
+        "supplierProductionType": "サプライヤ生産区分",
+        "destinationCode": "出荷先コード"
+      }
+    },
+    "customerCodeConversionRegister": {
+      "title": {
+        "customerCodeConversionRegister": "得意先コード変換マスタ登録"
+      },
+      "commonLabel": {
+        "clientCode": "顧客コード",
+        "customerCode": "得意先コード",
+        "warehouseGroupCode": "拠点グループコード",
+        "supplierCode": "サプライヤコード",
+        "supplierProductionType": "サプライヤ生産区分",
+        "destinationCode": "出荷先コード"
+      }
+    },
+    "deliveryInstructionDevideMaster": {
+      "commonLabel": {
+        "destinationCode": "出荷先コード",
+        "destinationPlantCode": "出荷先工場コード",
+        "destinationSupplierCode": "出荷先サプライヤコード",
+        "destinationProductionType": "出荷先生産区分",
+        "destinationItemCodeSearchCharacter": "出荷先品番検索文字列",
+        "searchConditionType": "検索条件タイプ",
+        "defaultWarehouseCode": "デフォルト拠点コード",
+        "remarks": "備考"
+      }
+    },
+    "deliveryInstructionDevideRegister": {
+      "title": {
+        "deliveryInstructionDevideRegister": "納入指示振り分けマスタ登録"
+      },
+      "commonLabel": {
+        "destinationCode": "出荷先コード",
+        "destinationPlantCode": "出荷先工場コード",
+        "destinationSupplierCode": "出荷先サプライヤコード",
+        "destinationProductionType": "出荷先生産区分",
+        "destinationItemCodeSearchCharacter": "出荷先品番検索文字列",
+        "searchConditionType": "検索条件タイプ",
+        "defaultWarehouseCode": "デフォルト拠点コード",
+        "remarks": "備考"
+      }
+    },
+    "destinationChangeIdMaster": {
+      "commonLabel": {
+        "destinationCode": "出荷先コード",
+        "changeId": "変更ID",
+        "changeIdName": "変更ID名称"
+      }
+    },
+    "destinationChangeIdRegister": {
+      "title": {
+        "destinationChangeIdRegister": "出荷先変更IDマスタ登録"
+      },
+      "commonLabel": {
+        "destinationCode": "出荷先コード",
+        "changeId": "変更ID",
+        "changeIdName": "変更ID名称"
+      }
+    },
+    "deliveryDestinationPlantConversionMaster": {
+      "commonLabel": {
+        "destinationCode": "出荷先コード",
+        "deliveryDestinationPlantCode": "納入先工場コード",
+        "destinationPlantCode": "出荷先工場コード"
+      }
+    },
+    "deliveryDestinationPlantConversionRegister": {
+      "title": {
+        "deliveryDestinationPlantConversionRegister": "納入先工場変換マスタ登録"
+      },
+      "commonLabel": {
+        "destinationCode": "出荷先コード",
+        "deliveryDestinationPlantCode": "納入先工場コード",
+        "destinationPlantCode": "出荷先工場コード"
+      }
+    },
+    "supplierWarehouseGroupSettingMaster": {
+      "commonLabel": {
+        "destinationCode": "出荷先コード",
+        "destinationPlantCode": "出荷先工場コード",
+        "destinationSupplierCode": "出荷先サプライヤコード",
+        "warehouseGroupCode": "デフォルト拠点グループコード"
+      }
+    },
+    "supplierWarehouseGroupSettingRegister": {
+      "title": {
+        "supplierWarehouseGroupSettingRegister": "サプライヤ別拠点グループ設定マスタ登録"
+      },
+      "commonLabel": {
+        "destinationCode": "出荷先コード",
+        "destinationPlantCode": "出荷先工場コード",
+        "destinationSupplierCode": "出荷先サプライヤコード",
+        "warehouseGroupCode": "デフォルト拠点グループコード"
+      }
+    },
+    "businessPartnerCodeConversionMaster": {
+      "commonLabel": {
+        "destinationCode": "出荷先コード",
+        "businessPartnerCode": "取引先コード",
+        "destinationSupplierCode": "出荷先サプライヤコード"
+      }
+    },
+    "businessPartnerCodeConversionRegister": {
+      "title": {
+        "businessPartnerCodeConversionRegister": "取引先コード変換マスタ登録"
+      },
+      "commonLabel": {
+        "destinationCode": "出荷先コード",
+        "businessPartnerCode": "取引先コード",
+        "destinationSupplierCode": "出荷先サプライヤコード"
+      }
+    },
+    "timeDivisionMaster": {
+      "commonLabel": {
+        "destinationCode": "出荷先コード",
+        "destinationPlantCode": "出荷先工場コード",
+        "deliveryPlace": "納入場所",
+        "destinationSupplierCode": "出荷先サプライヤコード",
+        "deliveryCount": "納入回数",
+        "deliveryTime": "納入時刻",
+        "displayTime": "表示時刻",
+        "timeDivision": "時区",
+        "slideTime": "スライド対象時刻表",
+        "displayTimeType": "表示時刻タイプ",
+        "displayTimeUnit": "表示時刻単位"
+      }
+    },
+    "timeDivisionRegister": {
+      "title": {
+        "timeDivisionRegister": "時区時間マスタ登録"
+      },
+      "commonLabel": {
+        "destinationCode": "出荷先コード",
+        "destinationPlantCode": "出荷先工場コード",
+        "destinationSupplierCode": "出荷先サプライヤコード",
+        "deliveryCount": "納入回数",
+        "deliveryTime": "納入時刻",
+        "displayTime": "表示時刻",
+        "slideTime": "スライド対象時刻表",
+        "timeDivision": "時区",
+        "deliveryPlace": "納入場所"
+      }
+    },
+    "itemControlMaster": {
+      "commonLabel": {
+        "warehouseGroupCode": "拠点グループコード",
+        "supplierCode": "サプライヤコード",
+        "destinationProductionType": "出荷先生産区分",
+        "destinationItemCodeSearchCharacter": "出荷先品番検索文字列",
+        "searchConditionType": "検索条件タイプ"
+      }
+    },
+    "itemControlRegister": {
+      "title": {
+        "itemControlRegister": "品目制御マスタ登録"
+      },
+      "commonLabel": {
+        "warehouseGroupCode": "拠点グループコード",
+        "supplierCode": "サプライヤコード",
+        "destinationProductionType": "出荷先生産区分",
+        "destinationItemCodeSearchCharacter": "出荷先品番検索文字列",
+        "searchConditionType": "検索条件タイプ"
+      }
+    },
+    "shippingLaneMaster": {
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "shippingLaneCode": "出荷レーンコード",
+        "shippingLaneName": "出荷レーン名",
+        "linkSetting": "紐づけ設定"
+      },
+      "tab": {
+        "shippingLaneMaster": "出荷レーンマスタ",
+        "settingByDeliveryPlant": "納入場所別設定",
+        "shippingLaneLinkList": "出荷レーン紐づけ一覧"
+      },
+      "button": {
+        "createLabel": "ラベル作成"
+      }
+    },
+    "shippingLaneRegister": {
+      "title": {
+        "shippingLaneRegister": "出荷レーンマスタ登録"
+      },
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "shippingLaneCode": "出荷レーンコード",
+        "shippingLaneName": "出荷レーン名"
+      }
+    },
+    "shippingLaneLinkSetting": {
+      "title": {
+        "shippingLaneLinkSetting": "出荷レーン別紐づけ設定(ベータ版)"
+      },
+      "commonLabel": {
+        "destinationCode": "出荷先コード",
+        "destinationPlantCode": "出荷先工場コード",
+        "deliveryPlaceGroup": "納入場所G",
+        "deliveryPlace": "納入場所",
+        "supplyPlace": "供給場所",
+        "destinationProductionType": "生産区分",
+        "displayTime": "表示時刻",
+        "shippingLaneCode": "出荷レーンコード",
+        "target": "対象",
+        "warehouseCode": "拠点コード",
+        "shippingLaneName": "出荷レーン名",
+        "includeOtherShippingLane": "他の出荷レーン含み"
+      },
+      "tab": {
+        "basic": "基本"
+      }
+    },
+    "settingByDeliveryPlace": {
+      "commonLabel": {
+        "destinationCode": "出荷先コード",
+        "destinationPlantCode": "出荷先工場コード",
+        "deliveryPlaceGroup": "納入場所G",
+        "deliveryPlace": "納入場所",
+        "supplyPlace": "供給場所",
+        "destinationProductionType": "生産区分",
+        "displayTime": "表示時刻",
+        "shippingLaneCode": "出荷レーンコード",
+        "warehouseCode": "拠点コード",
+        "editNote": "注意：同時複数編集、未設定出荷レーンの削除が不可になります。",
+        "onlyNotSetShippingLane": "出荷レーン未設定のみ"
+      },
+      "tab": {
+        "shippingLaneMaster": "出荷レーンマスタ",
+        "settingByDeliveryPlace": "納入場所別設定",
+        "shippingLaneLinkList": "出荷レーン紐づけ一覧"
+      }
+    },
+    "shippingLaneLinkList": {
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "shippingLaneCode": "出荷レーンコード",
+        "destinationCode": "出荷先コード",
+        "destinationPlantCode": "出荷先工場コード",
+        "deliveryPlaceGroup": "納入場所G",
+        "deliveryPlace": "納入場所",
+        "supplyPlace": "供給場所",
+        "displayTime": "表示時刻",
+        "destinationSupplierCode": "出荷先サプライヤコード",
+        "packagingCode": "荷姿コード",
+        "orderDelivery": "順序納入",
+        "shippingLane": "出荷レーン",
+        "sameSetting": "注記: 背景色が同じデータ行は、同一の設定が適用されます。",
+        "includeDeliveryPlaceGroup": "※納入場所グループ含む",
+        "displayTimeSetting": "表示時刻設定"
+      },
+      "orderDelivery": {
+        "yes": "順序納入指示あり",
+        "no": "なし"
+      },
+      "tab": {
+        "shippingLaneMaster": "出荷レーンマスタ",
+        "settingByDeliveryPlace": "納入場所別設定",
+        "shippingLaneLinkList": "出荷レーン紐づけ一覧"
+      }
+    },
+    "deliveryPlaceGroupMaster": {
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "destinationCode": "出荷先コード",
+        "destinationPlantCode": "出荷先工場コード",
+        "deliveryPlaceGroup": "納入場所G",
+        "deliveryPlaceGroupName": "納入場所G名",
+        "deleteNote": "注意：納入場所の設定がある場合（設定数＞0）は削除が不可になります。",
+        "settingNumber": "設定数"
+      },
+      "tab": {
+        "deliveryPlaceGroupSetting": "納入場所グループ設定",
+        "deliveryPlaceSetting": "納入場所から設定"
+      }
+    },
+    "deliveryPlaceGroupRegister": {
+      "title": {
+        "deliveryPlaceGroupRegister": "納入場所グループマスタ登録"
+      },
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "destinationCode": "出荷先コード",
+        "destinationPlantCode": "出荷先工場コード",
+        "deliveryPlaceGroup": "納入場所G",
+        "deliveryPlaceGroupName": "納入場所G名"
+      }
+    },
+    "deliveryPlaceGroupSetting": {
+      "title": {
+        "deliveryPlaceGroupSetting": "納入場所グループマスタ設定"
+      },
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "destinationCode": "出荷先コード",
+        "destinationPlantCode": "出荷先工場コード",
+        "deliveryPlaceGroup": "納入場所G",
+        "deliveryPlaceGroupName": "納入場所G名",
+        "deliveryPlace": "納入場所",
+        "supplyPlace": "供給場所",
+        "destinationProductionType": "生産区分",
+        "deliveryPlaceGroupList": "納入場所グループ一覧",
+        "notSetDeliveryPlace": "未設定納入場所",
+        "searchDeliveryPlaceGroup": "納入場所グループ内検索",
+        "target": "対象"
+      }
+    },
+    "deliveryPlaceSetting": {
+      "title": {
+        "deliveryPlaceSetting": "納入場所から設定"
+      },
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "destinationCode": "出荷先コード",
+        "destinationPlantCode": "出荷先工場コード",
+        "deliveryPlace": "納入場所",
+        "supplyPlace": "供給場所",
+        "destinationProductionType": "生産区分",
+        "deliveryPlaceGroup": "納入場所G",
+        "editNote": "注意：同時複数編集、未設定納入場所Gの削除が不可になります。",
+        "onlyNotSetDeliveryPlaceGroup": "納入場所G未設定のみ(参照モード)"
+      },
+      "tab": {
+        "deliveryPlaceGroupSetting": "納入場所グループ設定",
+        "deliveryPlaceSetting": "納入場所から設定"
+      }
+    },
+    "deliverySchedule": {
+      "title": {
+        "addNewDeliverySchedule": "納入予定新規登録",
+        "splitDeliverySchedule": "分割情報入力",
+        "deliveryScheduleHistoryEdit": "納入予定履歴編集",
+        "changeIdDeliverySchedule": "変更ID別納入予定設定"
+      },
+      "commonLabel": {
+        "destinationCode": "出荷先コード",
+        "shippingUniqueKey": "出庫ユニークキー",
+        "fLogicError": "論理エラー",
+        "fDeploymentNotRequired": "CNA展開",
+        "integrationDeploymentStatus": "統一レイアウト展開ステータス",
+        "totalAmount": "総件数",
+        "delayAmount": "停滞件数",
+        "skipAmount": "スキップ件数",
+        "deploymentSkip": "スキップ状態",
+        "inputType": "入力タイプ",
+        "addChangeType": "追加変更区分",
+        "dataNo": "データNO",
+        "controlUnit1Rcdid": "制御部1 RCDID",
+        "mazda": "マツダ",
+        "printDate": "発行日",
+        "calculationDate": "計算日",
+        "agentCode": "代行業者コード",
+        "agentName": "代行業者名称",
+        "reportNo": "帳票NO",
+        "layoutNo": "レイアウトNO",
+        "dataAvailabilityType": "データ有無区分",
+        "paymentTerms": "支払条件",
+        "unitPriceApplied": "単価適用",
+        "printType": "発行タイプ",
+        "deliveryPeriodStartDate": "納入指示期間開始日",
+        "deliveryPeriodEndDate": "納入指示期間終了日",
+        "controlUnit2Rcdid": "制御部2 RCDID",
+        "agentSupplierCode": "取引先コード",
+        "agentSupplierName": "取引先名称",
+        "individualUnitRcdid": "個別部RCDID",
+        "unofficialAnnouncementPrintType": "内示発行区分",
+        "plannedType": "計区",
+        "deliveryNo": "納品番号",
+        "partsNo": "部品番号",
+        "destinationItemCode": "出荷先品番",
+        "color": "色",
+        "process": "手順",
+        "partsWarehouse": "部品庫",
+        "deliveryTruckYard": "納入ﾄﾗｯｸﾔｰﾄﾞ",
+        "partsWarehouseLocation": "部品庫ﾛｹｰｼｮﾝ",
+        "supplyDestination": "供給先",
+        "constructionNo": "工事番号",
+        "productionWarehouse": "生産拠点",
+        "shippingWarehouse": "出荷拠点",
+        "logisticsRoute": "物流ルート",
+        "buyerCode": "担当ﾊﾞｲﾔｰｺｰﾄﾞ",
+        "orderReason": "注文理由",
+        "type": "区分",
+        "instructionType": "指示区分",
+        "inspectionType": "検査",
+        "initialType": "初期",
+        "paidType": "有償区分",
+        "pspoType": "PSPO区分",
+        "packagingCode": "荷姿ｺｰﾄﾞ",
+        "changeNo": "設変番号",
+        "transportationNo": "輸NO",
+        "deliveryDate": "納入日",
+        "shift": "シフト",
+        "deliveryTime": "納入時刻",
+        "timeCode": "時刻コード",
+        "changeId": "変更ID",
+        "cc": "CC",
+        "storageQuantity": "収納数",
+        "boxQuantity": "箱数",
+        "orderQuantity": "注文量",
+        "instructionQuantity": "指示量",
+        "vendorCode": "発注元ﾍﾞﾝﾀﾞｰｺｰﾄﾞ",
+        "vendorName": "発注元名称",
+        "errorOnly": "論理エラーのみ",
+        "warehouseCode": "拠点コード",
+        "warehouseGroup": "拠点G",
+        "warehouse": "拠点",
+        "fLogicError1": "論理エラー有",
+        "fLogicError0": "論理エラー無",
+        "fDeploymentSkip1": "スキップ実施(重複によりスキップ)",
+        "fDeploymentSkip0": "スキップなし(正常)",
+        "fDeploymentNotRequired1": "CNA展開対象外",
+        "fDeploymentNotRequired0": "CNA展開対象",
+        "splitNumber": "分割数"
+      }
+    },
+    "shippingIntegrationList": {
+      "tab": {
+        "newest": "最新",
+        "changeInstruction": "変更指示",
+        "unshipped": "未引当"
+      },
+      "toggle": {
+        "viewProgress": "進捗を表示する"
+      },
+      "choicesChip": {
+        "today": "本日"
+      },
+      "checkbox": {
+        "searchTarget": "出力対象",
+        "changeInstructionData": "変更指示最新データ",
+        "needCancelShipping": "要出荷取消",
+        "shippingCancelled": "出荷取消済"
+      },
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "supplier": "サプライヤ",
+        "slipNo": "納品番号",
+        "personInCharge": "担当者",
+        "destinationItemCode": "出荷先品番",
+        "deliveryPlace": "納入場所",
+        "backNo": "背番号",
+        "shippingDate": "出荷日",
+        "occurDate": "発生日",
+        "slipCancel": "取消",
+        "slipCanceled": "済",
+        "needCancel": "要",
+        "stockType": "在庫タイプ",
+        "through": "スルー",
+        "deliverySlipArrivalCheck": "納品書到着チェック",
+        "receiveThrough": "スルー入庫",
+        "deliverySlipAttachedCheck": "納品書添付チェック",
+        "picking": "ピッキング",
+        "productLabelCheck": "現品票チェック",
+        "palletizing": "パレタイズ",
+        "shippingLane": "出荷レーン",
+        "cargoLoading": "積込",
+        "batchNo": "バッチ番号",
+        "planShippingDate": "出荷予定日",
+        "deliveryTime": "納入時刻",
+        "destinationPlant": "出荷先工場",
+        "deliveryDate": "納期",
+        "displayTime": "表示時刻",
+        "partNo": "部品番号",
+        "productionType": "生産区分",
+        "quantity": "数量",
+        "destinationName": "出荷先名",
+        "updateInfo": "更新情報",
+        "dateTime": "処理年月日",
+        "updateUser": "更新者",
+        "cancelType": "キャンセル区分",
+        "cancel": "キャンセル",
+        "createInfo": "作成情報",
+        "createUser": "作成者"
+      }
+    },
+    "shippingIntegration": {
+      "tilte": {
+        "differenceViewList": "データ差異一覧",
+        "shippingIntegrationHistory": "出庫情報統一レイアウト履歴一覧画面"
+      },
+      "toggle": {
+        "viewdataProcessingInfo": "データ処理情報を表示する",
+        "viewUpdateInfo": "更新情報を表示する",
+        "deleted": "削除済を表示する"
+      },
+      "commonLabel": {
+        "searchFromClientName": "顧客名から探す",
+        "clientName": "顧客名",
+        "searchFromSupplier": "サプライヤから探す",
+        "supplier": "サプライヤ",
+        "destination": "出荷先",
+        "destinationItem": "出荷先品番",
+        "deleted": "削除済",
+        "linkedFile": "ファイル連携",
+        "handType": "ハンド入力",
+        "searchCondition": "検索条件",
+        "dataUpdateType": "データ更新区分",
+        "batchNo": "バッチ番号",
+        "fUnshipped": "未出荷フラグ",
+        "unshipped": "未出荷",
+        "noRelation": "該当しない",
+        "supplierCode": "在庫サプライヤコード",
+        "warehouseGroupCode": "拠点グループコード",
+        "deliveryDate": "納期",
+        "deliveryTime": "納入時刻",
+        "timeDivision": "時区",
+        "destinationCode": "出荷先コード",
+        "destinationPlantCode": "出荷先工場コード",
+        "deliveryPlace": "納入場所",
+        "destinationItemCode": "出荷先品番",
+        "destinationProcess": "出荷先手順",
+        "itemCode": "在庫品番",
+        "productionType": "在庫生産区分",
+        "warehouseCode": "拠点コード",
+        "backNo": "背番号",
+        "destinationProductionType": "出荷先生産区分",
+        "planQuantity": "予定数",
+        "itemCapacity": "収容数",
+        "orderItemCapacity": "オーダー収容数",
+        "itemCapacityGap": "収容数の差",
+        "slipNo": "納品番号",
+        "shift": "シフト",
+        "dayShift": "日勤",
+        "nightShift": "夜勤",
+        "supplyPlace": "供給場所",
+        "inspectionType": "検査区分",
+        "firstThingsType": "初物区分",
+        "constructionNo": "工事番号",
+        "orderReason": "注文理由",
+        "discontinuationType": "打切区分",
+        "divisionCount": "分割回数",
+        "unloadingPlace": "荷卸場所",
+        "productionPerson": "生担",
+        "shippingPackagingCode": "出荷荷姿コード",
+        "boxQuantity": "箱数",
+        "resultQuantity": "実績数",
+        "shippingUniqueKey": "出庫ユニークキー",
+        "deliveryPlaceLocation": "部品庫ロケーション",
+        "fDateClosing": "日締め処理フラグ",
+        "processed": "処理済み ",
+        "unprocessed": "未処理",
+        "itemName": "品目名",
+        "supplierPlantType": "サプライヤ工区",
+        "supplierShippingPlace": "サプライヤ出荷場",
+        "supplierProductionWarehouse": "サプライヤ生産拠点",
+        "shippingType": "出庫タイプ",
+        "shippingWorkStatus": "出庫作業ステータス",
+        "shippingSlipStatus": "出荷指示ステータス",
+        "supplierSendStatus": "サプライヤ送信ステータス",
+        "fileSendReceiveRecordId": "ファイル送受信履歴レコードID",
+        "destinationPlantType": "出荷先工場区分",
+        "kdType": "KD区分",
+        "importantSafetyPartsType": "重保区分",
+        "paidType": "有償区分",
+        "labelSize": "ラベルサイズ",
+        "dataKinds": "データ種別",
+        "ticketNo": "チケットNo",
+        "deliveryInstructionType": "納入指示区分",
+        "buyerCode": "担当ﾊﾞｲﾔｰｺｰﾄﾞ",
+        "transportationNo": "輸NO",
+        "shippingWeight": "出荷重量(kg)",
+        "shippingCapacity": "出荷容積(m3)",
+        "shippingLaneCode": "出荷レーンコード",
+        "shippingLaneName": "出荷レーン名",
+        "shippingDataTable": "納入予定データテーブル名",
+        "shippingDataRecordId": "納入予定データレコードID",
+        "inputType": "入力タイプ",
+        "checklistPrintStatus": "ｲﾝﾗｲﾝﾁｪｯｸﾘｽﾄ印刷ステータス",
+        "checklistPrintDateTime": "ｲﾝﾗｲﾝﾁｪｯｸﾘｽﾄ印刷日時",
+        "checklistPrintCount": "ｲﾝﾗｲﾝﾁｪｯｸﾘｽﾄ印刷回数",
+        "fOrderDelivery": "順序納入フラグ",
+        "hasOrderDelivery": "順序納入指示あり",
+        "noOrderDelivery": "なし",
+        "item": "項目",
+        "shippingIntegrationLayout": "出庫情報統一レイアウト",
+        "deliverySchedule": "納入予定",
+        "destinationItemCodePartsNo": "出荷先品番 ： 部品番号",
+        "destinationItemCodeColor": "出荷先品番 ： 色",
+        "process": "手順",
+        "destinationSupplierCode": "出荷先サプライヤコード",
+        "fShippingDataDiscrepancy": "メーカー不一致フラグ",
+        "unmatch": "不一致",
+        "match": "一致",
+        "viewdata": "表示データ",
+        "viewAll": "全て表示",
+        "noSetting": "設定なし",
+        "onlyUnshipped": "未出荷のみ表示",
+        "shippedData": "出荷済データ表示",
+        "onlyUnmatchingData": "メーカ別納入データと不一致のみ表示",
+        "viewAddInfo": "追加情報を表示する",
+        "shippingBasicInfo": "出荷基本情報",
+        "categoryAndOthers": "区分・その他",
+        "dataProcessingInfo": "データ処理情報",
+        "shippingLane": "出荷レーン",
+        "changeInfo": "変更",
+        "stockSupplier": "在庫サプライヤ",
+        "destinationName": "出荷先名",
+        "destinationPlant": "出荷先工場",
+        "productionTypeCommon": "生産区分",
+        "stockItem": "在庫品番",
+        "plannedType": "計画区分",
+        "logisticsRoute": "物流ルート",
+        "checkAll": "全てチェック",
+        "viewOnlyDiff": "差異のみ表示する",
+        "diffQuantity": "差異項目数",
+        "updateInfo": "更新情報",
+        "updateDate": "処理年月日",
+        "updateUser": "更新者"
+      }
+    },
+    "locationMaster": {
+      "commonLabel": {
+        "addNewLocation": "ロケーション追加",
+        "whCode": "拠点コード",
+        "areaCode": "エリアコード",
+        "location": "ロケーション",
+        "locationCode": "ロケーションコード",
+        "locationLine": "列",
+        "locationBay": "連",
+        "locationLevel": "段",
+        "locationFrontage": "間口",
+        "pickingOrder": "順路",
+        "locationManagementType": "ロケーション管理タイプ",
+        "locationFormatType": "ロケーションフォーマットタイプ",
+        "loadingType": "格納タイプ",
+        "enableStockStatusCode": "許可在庫状態コード",
+        "supplierCode": "在庫サプライヤコード",
+        "itemCode": "在庫品番",
+        "productionType": "在庫生産区分",
+        "locationCapacity": "ロケーション容積サイズ(m3)",
+        "limitWeight": "荷重制限(kg)",
+        "freeCapacity": "空き容積(m3)",
+        "space": "面積(m2)",
+        "remarks": "備考",
+        "lastUpdatedBy": "最終更新者",
+        "allocationEnable": "引当許可フラグ",
+        "itemConsolidationEnable": "品目混載許可フラグ",
+        "lotConsolidationEnable": "ロット混載許可フラグ",
+        "receiveDateConsolidationEnable": "入庫日付混載許可フラグ",
+        "productionDateConsolidationEnable": "製造日付混載許可フラグ",
+        "updateDateTime": "更新日時",
+        "locationLabelCreate": "ロケーションラベル作成：",
+        "locationLabelLayoutSetting": "ロケーションラベル　ラベルレイアウト設定"
+      },
+      "button": {
+        "createLabel": "ラベル作成",
+        "settingLayout": "レイアウト設定"
+      }
+    },
+    "locationLabelLayoutSetting": {
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "areaCode": "エリアコード",
+        "locationLine": "列",
+        "locationBay": "連",
+        "locationLevel": "段",
+        "locationFrontage": "間口",
+        "area": "エリア",
+        "location": "ロケーション",
+        "colorType": "背景色",
+        "size": "サイズ",
+        "arrow": "矢印",
+        "arrowNone": "なし",
+        "arrowUp": "↑",
+        "arrowDown": "↓",
+        "arrowLeft": "←",
+        "arrowRight": "→"
+      },
+      "button": {
+        "createLabel": "ラベル作成"
+      }
+    },
+    "userGroupMaster": {
+      "commonLabel": {
+        "notificationGroupName": "グループ名",
+        "addUserGroup": "グループユーザー追加",
+        "editUserGroup": "ユーザーグループ編集",
+        "lastUpdatedBy": "最終更新者",
+        "updateDateTime": "更新日時",
+        "remarks": "備考",
+        "users": "ユーザー",
+        "addToGroup": "追加",
+        "notificationSendType": "通知送信タイプ",
+        "creationSource": "作成元"
+      }
+    },
+    "deliveryPlaceMaster": {
+      "commonLabel": {
+        "addDeliveryPlace": "納入場所追加",
+        "destinationCode": "出荷先コード",
+        "destinationPlant": "出荷先工場",
+        "deliveryPlace": "納入場所",
+        "supplyPlace": "供給場所",
+        "destinationPlantCode": "出荷先工場コード",
+        "destinationProductionType": "出荷先生産区分",
+        "itemTag": "現品票",
+        "deliverySlip": "納品書",
+        "partsLabel": "パーツラベル",
+        "shippingLabel": "出荷ラベル",
+        "supplyCorrection": "支給引取明細",
+        "formatType": "指定フォーマットタイプ",
+        "reportPattern": "帳票パターン",
+        "deliverySlipSupplySlip": "納品書・支給書発行タイプ",
+        "remarks": "備考",
+        "lastUpdatedBy": "最終更新者",
+        "updateDateTime": "更新日時"
+      }
+    },
+    "destinationPlantMaster": {
+      "commonLabel": {
+        "addDestinationPlant": "出荷先工場追加",
+        "destinationCode": "出荷先コード",
+        "destinationPlantCode": "出荷先工場コード",
+        "sectionCode": "顧客部門コード",
+        "sectionName": "顧客部門名",
+        "defaultWarehouseGroupCode": "デフォルト拠点グループ",
+        "destinationProductionType": "出荷先生産区分取扱フラグ",
+        "destinationProductionTypeTrial": "試作",
+        "destinationProductionTypeMass": "量産",
+        "destinationProductionTypeKd": "KD",
+        "destinationProductionTypeParts": "パーツ",
+        "destinationProductionTypeSupply": "支給",
+        "lastUpdatedBy": "最終更新者",
+        "defaultWhGroup": "デフォルト拠点グループ",
+        "updateDateTime": "更新日時",
+        "remarks": "備考"
+      },
+      "targetOptions": {
+        "target": "取扱対象",
+        "notApplicaple": "取扱対象外"
+      }
+    },
+    "calendarHolidayMaster": {
+      "commonLabel": {
+        "code": "コード",
+        "name": "名称",
+        "monthAndYear": "年月",
+        "whGroup": "拠点グループ",
+        "off": "休",
+        "generateHolidays": "休日を生成",
+        "generateHolidayPopupTitle": "休日カレンダー作成",
+        "toMonth": "終了月",
+        "deliveryDate": "日付ピッカー"
+      }
+    },
+    "exportRequest": {
+      "commonLabel": {
+        "exportStatus": "ファイル作成ステータス",
+        "exportStatusGrid": "ファイル作成\nステータス",
+        "sendingFileStatus": "送信ステータス",
+        "sendingFileStatusGrid": "送信\nステータス",
+        "tabTitle": "データ送信",
+        "jobName": "ジョブ名",
+        "destination": "出荷先",
+        "warehouseGroup": "拠点グループ",
+        "supplier": "サプライヤ",
+        "code": "コード",
+        "name": "名称",
+        "exportType": "送信手法",
+        "jobConfig": "ジョブコンフィグ",
+        "lastUpdatedBy": "最終更新者",
+        "updateDateTime": "更新日時",
+        "client": "顧客",
+        "configDetails": "ジョブコンフィグ詳細",
+        "status": "ステータス",
+        "exportRequestDetails": "エクスポートリクエストの詳細",
+        "toEmails": "送信先メール",
+        "ccEmails": "CC",
+        "exportFolder": "エクスポートフォルダ",
+        "step": "ステップ",
+        "stepDetails": "ステップ詳細",
+        "stepStatus": "ステータス",
+        "skip": "スキップ",
+        "errorHistory": "異常履歴",
+        "exportFileName": "エクスポートファイル名",
+        "action": "処理",
+        "viewHistoryDetails": "履歴閲覧",
+        "reRun": "再実行",
+        "sendReSend": "送信",
+        "stepErrorHistoryDetails": "ステップエラー履歴詳細",
+        "stepName": "ステップ名",
+        "historyDetails": "履歴",
+        "message": "メッセージ",
+        "errorFile": "異常ファイル",
+        "date": "異常発生日時",
+        "jobClassification": "ジョブ区分",
+        "downloadFile": "ダウンロード",
+        "fileName": "ファイル名",
+        "sendMethod": "送信方法",
+        "warehouse": "拠点グループ",
+        "uploadPopupTitle": "ファイルアップロード",
+        "changePosition": "行をドラッグアンドドロップして位置を変更します。"
+      }
+    },
+    "stockInOutInquiry": {
+      "commonLabel": {
+        "areaCode": "エリアコード",
+        "balanceDateTime": "受払日時",
+        "batchNo": "バッチ番号",
+        "balanceType": "受払タイプ",
+        "boxQuantity": "箱数",
+        "clientName": "名称",
+        "destinationItemCodeGroup": "出荷先品番",
+        "destinationItemCode": "部品番号",
+        "destinationProductionType": "生産区分",
+        "deliveryPlace": "納入場所",
+        "destinationName": "出荷先名",
+        "destinationProcess": "手順",
+        "deliverySlipNo": "納品書番号",
+        "slipNo": "納品番号",
+        "destinationPlantCodeGroup": "出荷先工場",
+        "destinationPlantCode": "コード",
+        "deliveryTime": "納入時刻",
+        "deliveryDate": "納期",
+        "inOutDate": "入出庫日",
+        "itemCodeGroup": "在庫品番",
+        "itemCode": "部品番号",
+        "lotNo": "ロット番号",
+        "locationCode": "ロケーションコード",
+        "productionType": "生産区分",
+        "supplierCodeGroup": "サプライヤ",
+        "supplierCode": "コード",
+        "supplierItemCodeGroup": "サプライヤ品番",
+        "supplierItemCode": "部品番号",
+        "supplierProductionType": "生産区分",
+        "sectionName": "工場名",
+        "supplyPlace": "供給場所",
+        "shift": "シフト",
+        "stockInQuantity": "入庫数量",
+        "stockOutQuantity": "出庫数量",
+        "receiveDate": "入庫日",
+        "timeDivision": "時区",
+        "whCode": "拠点コード",
+        "areaCodeFilterForm": "エリア",
+        "batchNoFilterForm": "バッチ番号",
+        "destinationNameFilterForm": "出荷先名",
+        "destinationPlantCodeFilterForm": "出荷先工場",
+        "balanceTypeFilterForm": "受払タイプ",
+        "clientNameFilterForm": "顧客名",
+        "destinationItemCodeFilterForm": "出荷先品番部品番号",
+        "destinationProductionTypeFilterForm": "出荷先品番生産区分",
+        "deliveryDateFilterForm": "納期",
+        "deliveryPlaceFilterForm": "納入場所",
+        "inOutDateFilterForm": "入出庫日",
+        "itemCodeFilterForm": "在庫品番部品番号",
+        "lotNoFilterForm": "ロット番号",
+        "locationCodeFilterForm": "ロケーション",
+        "productionTypeFilterForm": "在庫品番生産区分",
+        "supplierCodeFilterForm": "サプライヤ",
+        "supplierItemCodeFilterForm": "サプライヤ品番部品番号",
+        "supplierProductionTypeFilterForm": "サプライヤ品番生産区分",
+        "supplyPlaceFilterForm": "供給場所",
+        "slipNoFilterForm": "納品番号",
+        "receiveDateFilterForm": "入庫日",
+        "warehouseCodeFilterForm": "拠点コード",
+        "areaCodeAndLocationCode": "エリアコード+ロケーションコード",
+        "destinationItemCodeAndProductionType": "出荷先品番",
+        "supplierItemCodeAndProductionType": "サプライヤ品番",
+        "displayOptions": "表示オプション",
+        "groupByOptions": "グルーピングオプション",
+        "displayTime": "表示時刻",
+        "backNo": "背番号",
+        "shippingUniqueKey": "出庫ユニークキー"
+      }
+    },
+    "calendarShippingDateMaster": {
+      "commonLabel": {
+        "deliveryDate": "日付ピッカー",
+        "warehouse": "拠点コード",
+        "destinationName": "出荷先名",
+        "destinationPlant": "出荷先工場",
+        "code": "コード",
+        "name": "名称",
+        "kdType": "KD区分",
+        "shippingStandard": "出荷基準",
+        "generateShippingDate": "出荷日を生成する",
+        "holidayCalendarMaster": "休日カレンダーマスタ"
+      }
+    },
+    "balanceInquiry": {
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "supplierCode": "サプライヤ",
+        "clientName": "顧客名",
+        "code": "コード",
+        "name": "名称",
+        "itemCodeGroup": "在庫品番",
+        "itemCode": "部品番号",
+        "itemCodeFilter": "在庫品番部品番号",
+        "productionType": "生産区分",
+        "supplierItemCode": "サプライヤ品番",
+        "supplierProductionType": "サプライヤ品番生産区分",
+        "destinationItemCode": "出荷先品番",
+        "destinationItemCodeFilter": "出荷先品番部品番号",
+        "destinationProductionTypeFilter": "出荷先品番生産区分",
+        "lotNo": "ロット番号",
+        "areaCode": "エリアコード",
+        "areaCodeFilter": "エリア",
+        "locationCode": "ロケーションコード",
+        "locationCodeFilter": "ロケーション",
+        "receiveDate": "入庫日",
+        "balanceDateTime": "受払日時",
+        "balanceDateTimeFrom": "受払開始日時",
+        "balanceDateTimeTo": "受払終了日時",
+        "inOutDate": "入出庫日",
+        "balanceType": "受払タイプ",
+        "stockInQuantity": "入庫数量",
+        "stockOutQuantity": "出庫数量",
+        "slipNo": "納品番号",
+        "boxNo": "箱番号",
+        "partnerBoxNo": "相手箱番号",
+        "serialNo": "シリアル番号",
+        "boxSerialNo": "箱シリアル番号",
+        "receivePalletNo": "入庫パレット番号",
+        "resultQuantity": "実績数",
+        "stockStatusCode": "在庫状態コード",
+        "shippingAllocationImpossible": "出荷引当不可フラグ",
+        "impossible": "不可",
+        "possible": "出荷引当可能",
+        "inspectionStatus": "検査ステータス",
+        "refillStatus": "詰替ステータス",
+        "packingStatus": "梱包ステータス",
+        "itemTagPage": "現品票枚目",
+        "destinationName": "出荷先名",
+        "destinationPlantCode": "出荷先工場",
+        "sectionName": "工場名",
+        "deliveryPlace": "納入場所",
+        "supplyPlace": "供給場所",
+        "shippingUniqueKey": "出庫ユニークキー",
+        "deliveryDate": "納期",
+        "displayTime": "表示時刻",
+        "shippingIntegrationRecordId": "出庫情報統一レイアウトレコードID",
+        "workInstructionRecordId": "作業指示レコードID",
+        "updateUserRecordId": "最終更新者",
+        "updateDateTime": "更新日時",
+        "displayOptions": "表示オプション",
+        "supplierItemCodeAndProductionType": "サプライヤ品番",
+        "destinationItemCodeAndProductionType": "出荷先品番",
+        "areaCodeAndLocationCode": "エリアコード+ロケーションコード",
+        "productionTypeFilter": "在庫品番生産区分",
+        "supplierItemCodeFilter": "サプライヤ品番部品番号"
+      }
+    },
+    "shipmentInstructionData": {
+      "title": {
+        "shipmentInstructionDataLog": "出荷指示データ作成エラーログ表示"
+      },
+      "commonLabel": {
+        "hasUnprocessed": "未処理あり",
+        "warehouse": "拠点",
+        "shippingDate": "出荷日",
+        "workDate": "作業日",
+        "shippingInstructionDate": "出荷指示日",
+        "unprocessed": "未処理",
+        "shippingInstruction": "出荷指示",
+        "status": "ステータス",
+        "batchNo": "バッチ番号",
+        "errorCount": "エラー件数",
+        "workInstruction": "作業指示",
+        "createdCount": "作成済件数",
+        "unshippedCount": "未出荷件数",
+        "inspectionCount": "検査件数",
+        "refillCount": "詰替件数",
+        "packingCount": "梱包件数",
+        "logType": "ログタイプ",
+        "operationDateTime": "操作日時",
+        "operationUser": "操作担当者",
+        "callerName": "呼出元名称",
+        "operationMessage": "操作記録",
+        "inParameter": "INパラメータ",
+        "outParameter": "OUTパラメータ",
+        "terminalSerial": "端末シリアル番号",
+        "storedName": "ストアド名称"
+      },
+      "button": {
+        "downloadReport": "未処理ファイルDL"
+      }
+    },
+    "shippingIntegrationChangeList": {
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "clientName": "顧客名",
+        "supplier": "サプライヤ",
+        "destination": "出荷先",
+        "unMatch": "不一致",
+        "rootData": "変更元",
+        "changeInfo": "変更",
+        "batchNo": "バッチ番号",
+        "shippingWorkStatus": "出庫作業ステータス",
+        "exportSlip": "伝票出力",
+        "done": "済",
+        "notDone": "未",
+        "deliveryDate": "納期",
+        "deliveryTime": "納入時刻",
+        "destinationName": "出荷先名",
+        "destinationPlant": "出荷先工場",
+        "deliveryPlace": "納入場所",
+        "destinationItem": "出荷先品番",
+        "productionTypeCommon": "生産区分",
+        "backNo": "背番号",
+        "planQuantity": "予定数",
+        "itemCapacity": "収容数",
+        "slipNo": "納品番号",
+        "constructionNo": "工事番号",
+        "partNo": "部品番号",
+        "colour": "色コード",
+        "process": "手順",
+        "supplyPlace": "供給場所",
+        "inspectionType": "検査区分",
+        "transportationNo": "輸NO",
+        "unloadingPlace": "荷卸場所",
+        "deliveryPlaceLocation": "部品庫ロケーション",
+        "buyerCode": "担当ﾊﾞｲﾔｰｺｰﾄﾞ",
+        "orderReason": "注文理由",
+        "paidType": "有償区分"
+      }
+    },
+    "shipmentWorkMonitor": {
+      "title": {
+        "shipmentStatusCheckPicking": "出荷作業チェック状況確認①",
+        "shipmentStatusCheckNonPicking": "出荷作業チェック状況確認②",
+        "storageWarehousingRecord": "入庫・格納実績"
+      },
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "displayMethod": "表示方法",
+        "itemNumber": "件数",
+        "percentage": "比率",
+        "supplier": "在庫サプライヤ",
+        "receiveDate": "入庫日",
+        "shippingDate": "出荷日",
+        "receiving": "入庫",
+        "matching": "突合",
+        "storage": "格納",
+        "picking": "ピッキング",
+        "productLabelCheck": "現品票チェック",
+        "palletizing": "パレタイズ",
+        "shippingLane": "出荷レーン",
+        "cargoLoading": "積込",
+        "actual": "実績",
+        "checking": "チェック",
+        "workType": "作業区分",
+        "planTotal": "予定計",
+        "actualTotal": "実績計",
+        "progress": "進捗",
+        "checkedRatio": "チェック済比率",
+        "workCheckStatus": "作業チェックステータス",
+        "pickingType": "ピッキング種別",
+        "itemCode": "部品番号",
+        "productionType": "生産区分",
+        "quantity": "数量",
+        "plan": "予定",
+        "itemCapacity": "収容数",
+        "boxQuantity": "箱数",
+        "reason": "理由",
+        "batchNo": "バッチ番号",
+        "destination": "出荷先",
+        "plantCode": "工場コード",
+        "columnNameame": "名称",
+        "slipNo": "納品番号",
+        "deliveryNo": "納品番号",
+        "deliveryPlace": "納入場所",
+        "supplyPlace": "供給場所",
+        "deliveryDate": "納期",
+        "displayTime": "表示時刻",
+        "storageWarehousingRecord": "入庫・格納実績",
+        "planedReceiveInventory": "入庫予定計",
+        "actualReceiveInventory": "入庫実績計",
+        "receiveProgress": "入庫進捗",
+        "storageInventoryTotal": "格納計",
+        "storageProgress": "格納進捗"
+      }
+    },
+    "shipmentInstructionIssue": {
+      "commonLabel": {
+        "issueWarehouseCode": "発行拠点",
+        "create": "作成",
+        "download": "DL",
+        "link": "リンク",
+        "usageWarehouseCode": "使用拠点",
+        "shipmentDate": "出荷日",
+        "shippingInstructionDate": "出荷指示日",
+        "workingDate": "作業日",
+        "reportGroupName": "帳票発行グループ名",
+        "reportName": "帳票名",
+        "printProcessCategory": "発行処理種別",
+        "pageCategory": "用紙種別",
+        "pageSize": "用紙サイズ",
+        "downloadCount": "DL回数",
+        "preview": "プレビュー",
+        "fileName": "ファイル名",
+        "batchNo": "バッチ番号",
+        "totalReport": "帳票発行グループ数",
+        "downloadedCount": "DL済",
+        "boxNo": "箱番号",
+        "selectNote": "注意：「作成」に「済」が選択されている場合、「出荷日」「作業日」のいずれかは選択必須となります。",
+        "noDataHidden": "対象データ無しで作成されなかった帳票を表示しない",
+        "entirety": "全体",
+        "uncheckList": "未チェックリスト"
+      }
+    },
+    "receivePalletLabelIssue": {
+      "commonLabel": {
+        "receivePalletLabelIssue": "入庫パレットラベル発行",
+        "numberOfIssue": "発行枚数",
+        "createLabel": "ラベル作成"
+      }
+    },
+    "receiveStandard": {
+      "title": {
+        "receivePlanRegister": "入庫予定（標準）登録",
+        "receivePlanHistory": "入庫予定（標準）履歴",
+        "errorDetailScreen": "入庫予定（標準）エラー明細画面",
+        "fileUpload": "ファイルアップロード"
+      },
+      "toggle": {
+        "viewDataProcessingInfo": "データ処理情報を表示する",
+        "viewUpdateInfo": "更新情報を表示する",
+        "deleted": "削除済を表示する"
+      },
+      "commonLabel": {
+        "receiveTable": "入庫テーブル",
+        "warehouseCode": "拠点",
+        "personInCharge": "担当者",
+        "supplierCode": "サプライヤコード",
+        "clientName": "顧客名",
+        "depotReceivePlanDate": "デポ入庫予定日",
+        "receiveSlipNoClient": "客先発注番号",
+        "fLogicError": "論理エラーのみ",
+        "linkedFile": "ファイル連携",
+        "handType": "ハンド入力",
+        "upload": "アップロード",
+        "updateInfo": "更新情報",
+        "dataProcessingInfo": "データ処理情報",
+        "inputType": "入力タイプ",
+        "deploymentStatus": "展開ステータス",
+        "delayAmount": "停滞件数",
+        "logicError": "論理エラー",
+        "addChangeType": "追加変更区分",
+        "receiveUniqueKey": "入庫ユニークキー",
+        "receiveBasicInfo": "入庫基本情報",
+        "supplier": "サプライヤ",
+        "itemCode": "在庫品番",
+        "productionType": "在庫生産区分",
+        "supplierItemCode": "サプライヤ品番",
+        "supplierProductionType": "サプライヤ生産区分",
+        "supplierShippingDate": "サプライヤ出荷日",
+        "receiveDocumentNo": "入庫伝票番号",
+        "receiveDetailNo": "明細番号",
+        "planQuantity": "予定数",
+        "lotNo": "ロット番号",
+        "itemCapacity": "収容数",
+        "categoryAndOthers": "区分・その他",
+        "arrivalFlight": "到着便",
+        "receiveInvoiceNo": "インボイスNO",
+        "transportationMethod": "輸送手段",
+        "createDate": "作成日",
+        "createTime": "作成時刻",
+        "supplierRemarks": "サプライヤ備考",
+        "checklist": "ｲﾝﾗｲﾝﾁｪｯｸﾘｽﾄ",
+        "printStatus": "印刷ステータス",
+        "printDateTime": "印刷日時",
+        "printCount": "印刷回数",
+        "slipNo": "伝票番号",
+        "itemNo": "品目番号",
+        "receiveWarehouse": "入庫倉庫",
+        "receiveLocation": "入庫ﾛｹｰｼｮﾝ",
+        "defaultLocation": "ﾃﾞﾌｫﾙﾄﾛｹｰｼｮﾝ",
+        "quantity": "数量",
+        "deliveryDate": "納期",
+        "arrivalPlanDate": "到着予定日",
+        "facility": "ﾌｧｼﾘﾃｨ",
+        "receiveSupplierCode": "仕入先",
+        "receiveSupplierName": "仕入先名",
+        "packaging": "荷姿",
+        "inspectionType": "検査区分",
+        "inspectionTypeName": "検査区分名",
+        "fInspectionName": "検査名ﾌﾗｸﾞ",
+        "divisionType": "分割区分",
+        "comment": "コメント",
+        "managementNo": "管理番号",
+        "tsType": "TS区分",
+        "fImportantSafetyParts": "重保FLG",
+        "undefined": "未確定",
+        "fLogicError1": "論理エラー有",
+        "fLogicError0": "論理エラー無",
+        "unregistered": "未登録",
+        "normal": "正常",
+        "abnormal": "異常",
+        "notYet": "未",
+        "registrationFailed": "登録失敗",
+        "registered": "登録済",
+        "inputItemCode": "在庫品番で入力",
+        "inputSupplierItemCode": "サプライヤ品番で入力",
+        "processDate": "処理年月日",
+        "processUser": "更新者",
+        "errorInformation": "エラー情報",
+        "null": "空",
+        "totalAmount": "総件数"
+      }
+    },
+    "receiveIntegration": {
+      "title": {
+        "receiveIntegrationRegister": "入庫情報統一レイアウト登録画面",
+        "receiveIntegrationHistory": "入庫情報統一レイアウト履歴一覧画面"
+      },
+      "tab": {
+        "editListTab": "編集一覧",
+        "matchingTab": "入庫実績突合",
+        "itemCodeInputTab": "在庫品目で入力",
+        "matchingHistory": "入庫突合履歴",
+        "supplierItemCodeInputTab": "サプライヤ品目で入力"
+      },
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "receivePlanDate": "入庫予定日",
+        "supplierCode": "サプライヤコード",
+        "deleted": "削除済",
+        "supplier": "サプライヤ",
+        "supplierShippingDate": "サプライヤ出荷日",
+        "itemCode": "在庫品番",
+        "productionType": "在庫生産区分",
+        "supplierItemCode": "サプライヤ品番",
+        "supplierProductionType": "サプライヤ生産区分",
+        "receiveSlipNoClient": "客先発注番号",
+        "receiveDetailNo": "明細番号",
+        "resultQuantity": "実績数",
+        "planQuantity": "予定数",
+        "lotNo": "ロット番号",
+        "itemCapacity": "収容数",
+        "boxCapacity": "箱数",
+        "itemCapacityDiscrepancyType": "収容数不一致区分",
+        "createDate": "作成日",
+        "createTime": "作成時刻",
+        "inputType": "入力タイプ",
+        "receiveType": "入庫タイプ",
+        "supplierRemarks": "サプライヤ備考",
+        "matchingResult": "突合結果",
+        "receiveDate": "入庫日",
+        "actualResultComparison": "実績比較",
+        "boxNo": "箱番号",
+        "boxSerialNo": "箱シリアル番号",
+        "quantity": "数量",
+        "plan": "予定",
+        "result": "実績",
+        "diffQuantity": "差分",
+        "matchingDateTime": "突合日時",
+        "matchingUser": "突合実施者",
+        "matchingInprogress": "突合進捗",
+        "viewReceiveProgress": "入庫進捗を表示する",
+        "receiveProgress": "入庫進捗",
+        "receive": "入庫",
+        "matching": "突合",
+        "storage": "格納",
+        "personIncharge": "担当者",
+        "clientName": "顧客名",
+        "arrivalFlight": "便",
+        "receiveDocumentNo": "入庫伝票番号",
+        "warehouse": "拠点",
+        "receiveBasicInfo": "入庫基本情報",
+        "shippingUniqueKey": "出庫ユニークキー",
+        "updateInfo": "更新情報",
+        "processDateTime": "処理年月日",
+        "updateUser": "更新者",
+        "dataProcessingInfo": "データ処理情報",
+        "dataUpdateType": "データ更新区分",
+        "arrivalFlight1": "到着便",
+        "item": "部品番号",
+        "productionTypeCommon": "生産区分",
+        "destinationName": "出荷先名",
+        "viewShippingThroughInfo": "スルー出荷情報を表示する",
+        "viewUpdateInfo": "更新情報を表示する",
+        "viewDataProcessingInfo": "データ処理情報を表示する",
+        "linkedFile": "ファイル連携",
+        "handType": "ハンド入力",
+        "upload": "アップロード",
+        "autoInsert": "自動登録",
+        "stockType": "在庫タイプ",
+        "shippingThroughInfo": "スルー出荷情報",
+        "destination": "出荷先",
+        "shippingPlanDate": "出荷予定日",
+        "deliveryDate": "納期",
+        "batchNo": "バッチ番号",
+        "through": "スルー",
+        "slipNo": "納品番号",
+        "destinationItem": "出荷先品番",
+        "destinationItemCode": "部品番号",
+        "destinationProductionType": "生産区分",
+        "backNo": "背番号",
+        "deliveryPlace": "納入場所",
+        "matchingDevice": "突合デバイス"
+      }
+    },
+    "lockMaster": {
+      "commonLabel": {
+        "addLockTitle": "ロック追加",
+        "editLockTitle": "ロック編集",
+        "isLock": "ロックフラグ",
+        "lockToggle": "ロックする",
+        "lockedConditionNote": "※以下設定条件の関連機能をロックします。",
+        "whCode": "拠点コード",
+        "clientName": "顧客名",
+        "businessType": "業務区分",
+        "lockCheckIn": "ロック開始日時",
+        "lockCheckOut": "ロック終了日時",
+        "lockTime": "ロック時間",
+        "remarks": "備考",
+        "lastUpdatedBy": "最終更新者",
+        "updateDateTime": "更新日時"
+      }
+    },
+    "numberingMaster": {
+      "commonLabel": {
+        "noTypeCode": "連番種別コード",
+        "numberingType": "採番タイプ",
+        "numberOfDigits": "桁数",
+        "numberingTypeCompliantLength": "採番タイプ準拠桁数",
+        "numberingTypeDecimalPartLength": "採番タイプ毎10進数部桁数",
+        "currentNo": "現在番号",
+        "startNo": "開始番号",
+        "endNo": "終了番号",
+        "startNoDecimal": "開始番号(10進数)",
+        "endNoDecimal": "終了番号(10進数)",
+        "decimal": "10進数",
+        "startCharacter": "開始文字",
+        "zeroFill": "ゼロフィル",
+        "systemUserInclude": "システムユーザー付加フラグ",
+        "systemUserIncludeLabel": "システムユーザー付加する",
+        "valueRange": "発行番号範囲",
+        "capacity": "最大発行可能数",
+        "availableNumbers": "発行可能数",
+        "numberingReuse": "再利用可否フラグ",
+        "numberingReuseLabel": "連番を再利用する",
+        "numberingReuseConditionLabel": "※現在番号が終了番号に達したときは開始番号に自動でリセットされます。",
+        "remarks": "備考",
+        "lastUpdatedBy": "最終更新者",
+        "updateDateTime": "更新日時",
+        "addNumberingTitle": "採番追加",
+        "editNumberingTitle": "採番編集",
+        "endCharacter": "終了文字",
+        "reuseEnable": "再利用可否フラグ",
+        "clientCode": "顧客コード",
+        "destinationCode": "出荷先コード",
+        "inventoryNo": "納入_納品番号"
+      },
+      "systemUserIncludeOptions": {
+        "checked": "付加する",
+        "unchecked": "付加しない"
+      },
+      "reuseEnableOptions": {
+        "checked": "再利用可",
+        "unchecked": "不可"
+      }
+    },
+    "shippingDateStandardMaster": {
+      "commonLabel": {
+        "whCode": "拠点コード",
+        "destinationCode": "出荷先コード",
+        "destinationPlant": "出荷先工場",
+        "destinationPlantCode": "出荷先工場",
+        "destinationPlantCodeGrid": "コード",
+        "destinationPlantNameGrid": "工場名",
+        "kdType": "KD区分",
+        "shippingStandard": "出荷基準",
+        "remarks": "備考",
+        "updateDateTime": "更新日時",
+        "lastUpdatedBy": "最終更新者",
+        "addShippingDateStandard": "新規登録"
+      }
+    },
+    "traceabilityInquiry": {
+      "commonLabel": {
+        "whCode": "拠点コード",
+        "supplierGroup": "サプライヤ",
+        "supplierCode": "コード",
+        "clientName": "名称",
+        "itemGroup": "在庫品番",
+        "itemCode": "部品番号",
+        "productionType": "生産区分",
+        "lotNo": "ロット番号",
+        "areaCode": "エリアコード",
+        "locationCode": "ロケーションコード",
+        "receiveGroup": "入庫",
+        "receiveDate": "入庫日",
+        "stockInQuantity": "入庫数量",
+        "lastUpdatedBy": "担当者",
+        "balanceDateTime": "更新日時",
+        "destinationGroup": "出庫",
+        "destinationCode": "出荷先",
+        "destinationPlantGroup": "出荷先工場",
+        "destinationPlantCode": "コード",
+        "sectionName": "工場名",
+        "kdType": "KD区分",
+        "deliveryDate": "納期",
+        "deliveryTime": "納入時刻",
+        "timeDivision": "時区",
+        "inOutDate": "出荷日",
+        "shippingDate": "出荷予定日",
+        "deliverySlipNo": "納品番号",
+        "shippingUniqueKey": "出荷ユニークキー",
+        "stockOutQuantity": "出庫数量",
+        "deliveryPlace": "納入場所",
+        "supplyPlace": "供給場所",
+        "updateDateTime": "更新日時",
+        "clientNameFilterForm": "顧客名",
+        "itemCodeFilterForm": "在庫品番部品番号",
+        "productionTypeFilterForm": "在庫品番生産区分",
+        "areaCodeFilterForm": "エリア",
+        "locationCodeFilterForm": "ロケーション",
+        "destinationNameFilterForm": "出荷先名",
+        "groupByOptions": "グルーピングオプション",
+        "displayOptions": "表示オプション",
+        "inStockData": "入庫データ",
+        "outStockData": "出庫データ"
+      }
+    },
+    "registerDailySlide": {
+      "title": {
+        "slideGroupRegistration": "スライドグループ登録",
+        "shippingSlideRegistration": "出荷先別スライド登録",
+        "slideRegistration": "スライド登録",
+        "settingDeliveryPlaceBySlideGroup": "スライドグループ別納入場所設定",
+        "slideSettingList": "スライド設定リスト",
+        "slideGroupSearch": "スライドグループ内検索"
+      },
+      "commonLabel": {
+        "deliveryDate": "納期",
+        "confirmProcess": "確認状況",
+        "destination": "出荷先",
+        "slideSetting": "スライド設定",
+        "slideConfirmStatus": "スライド確認ステータス",
+        "slideConfirmUserRecordId": "スライド確認者",
+        "slideConfirmDateTime": "スライド確認日時",
+        "destinationPlant": "出荷先工場",
+        "slideGroup": "スライドグループ",
+        "slideGroupCode": "スライドグループコード",
+        "slideGroupName": "スライドグループ名称",
+        "memo": "メモ",
+        "deliveryCount": "納入回数",
+        "settingLocationTotal": "設定納入場所計",
+        "valid": "有効",
+        "invalid": "無効",
+        "total": "計",
+        "settingDeliveryPlace": "納入場所設定",
+        "noSetList": "未設定納入場所",
+        "slide": "スライド",
+        "deliveryTime": "納入時刻",
+        "previousSetting": "前回設定",
+        "date": "日付",
+        "deliveryPlace": "納入場所",
+        "supplyPlace": "供給場所",
+        "validInvalid": "有効/無効",
+        "allCardDisplay": "全てカード表示開閉 "
+      },
+      "button": {
+        "slideSettingList": "スライド設定リスト",
+        "allValid": "有効する",
+        "allInvalid": "無効する",
+        "updateCardToValid": "選択カード有効",
+        "updateCardToInvalid": "選択カード無効",
+        "selectAllCard": "全カード選択",
+        "saveSlideGroup": "スライドG保存"
+      }
+    },
+    "warehouseSafetyStock": {
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "supplierCode": "サプライヤコード",
+        "supplier": "サプライヤ",
+        "itemCode": "在庫品番",
+        "stockProductionType": "在庫生産区分",
+        "stockItem": "在庫品番",
+        "productionType": "生産区分",
+        "beforeInspecting": "検査前",
+        "itemCapacity": "収容数",
+        "safetyStockQuantity": "安全在庫数",
+        "supplementQuantity": "補充数",
+        "beforeRefilling": "詰替前",
+        "beforePacking": "梱包前",
+        "shippable": "出荷可能"
+      }
+    },
+    "personSupplierGroup": {
+      "title": {
+        "supplierGroupList": "担当サプライヤグループ一覧",
+        "personSettingRegister": "担当者設定登録"
+      },
+      "commonLabel": {
+        "personBySupplierGroupList": "担当サプライヤグループ別担当者一覧",
+        "personBySupplierGroupEdit": "担当サプライヤグループ別担当者編集",
+        "warehouseCode": "拠点コード",
+        "supplier": "サプライヤ",
+        "supplierGroup": "担当サプライヤグループ",
+        "groupSetting": "グループ設定",
+        "personSetting": "担当者設定",
+        "main": "主",
+        "sub": "副",
+        "priority": "優先順位",
+        "person": "担当者",
+        "warehouseGroupName": "所属拠点グループ名称",
+        "defaultWarehouseCode": "デフォルト拠点",
+        "warehouseCodeQuantity": "拠点数",
+        "supplierGroupQuantity": "担当サプライヤグループ数",
+        "supplierCodeQuantity": "サプライヤ数"
+      }
+    },
+    "dailyProcess": {
+      "title": {
+        "dailyProcessRegistration": "日次処理登録",
+        "slideConfirmByWarehouse": "拠点別スライド確認",
+        "dailyLogHistory": "日次処理履歴"
+      },
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "destination": "出荷先",
+        "deliveryDate": "納期",
+        "destinationPlant": "出荷先工場",
+        "deliveryPlace": "納入場所",
+        "supplyPlace": "供給場所",
+        "displayTime": "表示時刻",
+        "planShippingDate": "出荷予定日",
+        "resultShippingDate": "出荷実績日",
+        "slideGroup": "スライドグループ",
+        "supplier": "在庫サプライヤ",
+        "destinationItem": "出荷先品目",
+        "productionType": "生産区分",
+        "itemCapacity": "収容数",
+        "planQuantity": "予定数",
+        "shift": "シフト",
+        "destinationProcess": "出荷先手順",
+        "slipNo": "納品番号",
+        "dailyProcessName": "日次処理名",
+        "dailyProcessStartTime": "日次処理開始日時",
+        "dailyProcessEndTime": "日次処理終了日時",
+        "dailyProcessBatchNo": "日次バッチ番号",
+        "dailyProcessDate": "日次処理日",
+        "dailyProcessStatus": "日次処理ステータス",
+        "normalCount": "正常件数",
+        "errorCount": "異常件数",
+        "processOrder": "処理順",
+        "remarks": "備考",
+        "slideSettingToday": "今日のスライド設定",
+        "slideRegister": "スライド登録",
+        "slideSetting": "スライド設定",
+        "date": "日付",
+        "slide": "スライド",
+        "deliveryCount": "納入回数"
+      },
+      "button": {
+        "slideConfirmStatus": "拠点別スライド確認",
+        "inboundRecordFileCreation": "入庫実績ファイル作成",
+        "runDailyProcess": "日次実行"
+      }
+    },
+    "stockDailyUpdate": {
+      "commonLabel": {
+        "shippingDate": "出荷日",
+        "clientName": "顧客名",
+        "destinationSupplier": "出荷先サプライヤ",
+        "destination": "出荷先",
+        "slideSettingToday": "今日のスライド設定",
+        "slideRegister": "スライド登録",
+        "slideSetting": "スライド設定",
+        "slideConfirmStatus": "スライド確認ステータス",
+        "batchNo": "バッチ番号",
+        "updatedResultShippingDate": "出荷実績日更新",
+        "updatedStock": "在庫更新",
+        "processingStatus": "処理状況",
+        "normalCount": "正常件数",
+        "errorCount": "異常件数",
+        "warehouse": "拠点",
+        "slideCount": "スライド件数",
+        "dailyProcessingProgress": "日次処理進捗状況",
+        "executedResult": "実行結果",
+        "planShippingDate": "出荷予定日",
+        "processedCount": "処理済件数",
+        "untreated": "未処理",
+        "completionCount": "完了件数",
+        "workInProgressInterruptionCount": "仕掛中断件数",
+        "workingCount": "作業中件数",
+        "notStartedYetCount": "未着手件数",
+        "slideTarget": "スライド対象"
+      },
+      "button": {
+        "slideConfirmStatus": "拠点別スライド確認"
+      }
+    },
+    "monthlyClosingProcess": {
+      "title": {
+        "monthlyLogHistory": "月次処理履歴",
+        "monthlyLogDetail": "月次処理ログ詳細"
+      },
+      "commonLabel": {
+        "warehouseCode": "拠点コード",
+        "targetYearMonth": "対象年月",
+        "monthlyProcessName": "月次処理名",
+        "monthlyProcessDate": "月次処理日",
+        "monthlyProcessStatus": "月次処理ステータス",
+        "normalCount": "正常件数",
+        "errorCount": "異常件数",
+        "monthlyProcessBatchNo": "月次バッチ番号",
+        "monthlyProcessStartDateTime": "月次処理開始日時",
+        "monthlyProcessEndDateTime": "月次処理終了日時",
+        "operationUser": "操作担当者",
+        "storedName": "ストアド名称",
+        "operationMessage": "操作記録",
+        "batchNo": "バッチ番号",
+        "callerName": "呼出元名称",
+        "operationDateTime": "操作日時",
+        "inParameter": "INパラメータ",
+        "outParameter": "OUTパラメータ",
+        "terminalSerial": "端末シリアル番号",
+        "logType": "ログタイプ"
+      }
+    },
+    "receiveResultFile": {
+      "commonLabel": {
+        "createDate": "作成日",
+        "supplier": "サプライヤ",
+        "receiveDate": "入庫日",
+        "createDateTime": "作成日時",
+        "createUser": "実施者",
+        "dataCount": "データ件数",
+        "detail": "詳細",
+        "download": "ダウンロード",
+        "downloadCount": "ダウンロード回数",
+        "lastDownloadDateTime": "最終ダウンロード日時",
+        "lastDownloadUser": "最終ダウンロード者",
+        "warehouseGroupCode": "拠点G"
+      },
+      "button": {
+        "receiveResultFileCreate": "入庫実績ホスト連携ファイル作成"
+      }
+    },
+    "receiveResultFileHistoryDetail": {
+      "title": {
+        "receiveResultFileHistoryDetail": "入庫実績連携ファイル作成履歴詳細"
+      },
+      "commonLabel": {
+        "supplierCode": "サプライヤコード",
+        "supplierName": "サプライヤ名",
+        "receiveDate": "入庫日",
+        "dataCount": "データ件数"
+      }
+    },
+    "codeMaster": {
+      "commonLabel": {
+        "codeExplanation": "コードの説明",
+        "codeGroupName": "コードグループ名",
+        "code": "コード",
+        "codeName1": "コード名称1",
+        "codeName2": "コード名称2",
+        "codeName3": "コード名称3",
+        "codeName4": "コード名称4",
+        "codeName5": "コード名称5",
+        "codeName6": "コード名称6",
+        "codeName7": "コード名称7",
+        "codeName8": "コード名称8",
+        "codeName9": "コード名称9",
+        "codeName10": "コード名称10",
+        "genericChar1": "汎用文字1",
+        "genericChar2": "汎用文字2",
+        "genericChar3": "汎用文字3",
+        "genericNumeric1": "汎用数値1",
+        "genericNumeric2": "汎用数値2",
+        "genericNumeric3": "汎用数値3",
+        "inOutType": "入出庫タイプ",
+        "displayOrder": "表示順",
+        "remarks": "備考",
+        "lastUpdatedBy": "最終更新者",
+        "updateDateTime": "更新日時",
+        "editModalTitle": "汎用コード編集",
+        "addModalTitle": "汎用コード追加",
+        "parentCode": "親コード",
+        "parentCodeGroupName": "親コードグループ名"
+      }
+    },
+    "inventoryCertificateOutput": {
+      "commonLabel": {
+        "cancelInventory": "確定解除",
+        "clientCode": "顧客",
+        "confirmInventory": "確定処理",
+        "correctInventory": "棚卸差異修正",
+        "emptyLock": "棚卸",
+        "entryExitLock": "入出庫",
+        "exportDate": "出力日",
+        "inventoryPassword": "パスワード",
+        "inventoryYearMonth": "棚卸年月",
+        "inventoryYearMonthDate": "棚卸年月日",
+        "issueInventory": "在庫証明書発行",
+        "searchInventory": "検索",
+        "startInventory": "棚卸開始",
+        "tabTitle": "在庫証明書出力",
+        "whCode": "拠点",
+        "inOutDateField": "入出庫日",
+        "inventoryNo": "納入_納品番号",
+        "modalTitle": "入出庫日入力",
+        "register": "登録",
+        "Yes": "はい",
+        "No": "いいえ"
+      }
+    },
+    "standardStockCertificateOutput": {
+      "commonLabel": {
+        "exportDate": "出力日",
+        "warehouse": "拠点",
+        "client": "顧客",
+        "inventorySubjectToExport": "出力対象在庫",
+        "endOfTermStock": "期末在庫",
+        "stockAsOfSelectedDate": "選択日付時点の在庫",
+        "endOfTermSelection": "期末選択",
+        "dateSelection": "日付選択",
+        "lastReceiveDate": "最終入庫日",
+        "password": "パスワード"
+      },
+      "checkbox": {
+        "issueWithSeal": "印鑑付きで発行"
+      },
+      "button": {
+        "stockCertificateBasicInformationExport": "在庫証明基礎情報出力",
+        "stockCertificateIssuance": "在庫証明書発行",
+        "issueInExcelFormat": "EXCEL形式で発行",
+        "issueInPdfFormat": "PDF形式で発行"
+      }
+    },
+    "inventoryInitializationProcess": {
+      "commonLabel": {
+        "tabTitle": "初期化処理",
+        "initializeButton": "初期化",
+        "whCode": "拠点",
+        "clientName": "顧客",
+        "inventoryYearMonth": "棚卸年月",
+        "inventoryPassword": "パスワード",
+        "emptyLock": "棚卸",
+        "inventoryNo": "納入_納品番号",
+        "entryExitLock": "入出庫"
+      }
+    },
+    "inventoryInquiryByBox": {
+      "commonLabel": {
+        "tabTitle": "箱別棚卸実績問い合わせ",
+        "clientName": "顧客名",
+        "warehouseCode": "拠点",
+        "inventoryYearMonth": "棚卸年月",
+        "inventoryNo": "棚卸指示番号",
+        "boxNo": "箱番号",
+        "supplierCode": "在庫サプライヤコード",
+        "itemCode": "部品番号",
+        "productionType": "在庫生産区分",
+        "stockStatus": "在庫状態",
+        "stockStatusCode": "在庫状態コード",
+        "areaCode": "エリア",
+        "actualLocationCode": "ロケ",
+        "locationCode": "ロケーションコード",
+        "inventoryArea": "棚卸エリア",
+        "differentItem": "差異項目",
+        "round0": "確定",
+        "round": "回目",
+        "actualQuantity": "実棚数",
+        "areaName": "エリア名",
+        "userName": "実棚担当者",
+        "scanDateTime": "実棚日時",
+        "inventoryRounds": "ラウンド",
+        "dbOperationType": "DB操作タイプ",
+        "supplier": "在庫サプライヤ",
+        "code": "コード",
+        "production": "在庫生産",
+        "type": "区分",
+        "stock": "在庫状態",
+        "inventory": "棚卸",
+        "area": "エリア"
+      }
+    },
+    "inventoryInquiryByItem": {
+      "commonLabel": {
+        "tabTitle": "品目別棚卸実績問い合わせ",
+        "round": "回目",
+        "round0": "確定",
+        "clientName": "顧客名",
+        "warehouse": "拠点",
+        "inventoryYearMonth": "棚卸年月",
+        "inventoryNo": "棚卸指示番号",
+        "supplierCode": "在庫サプライヤコード",
+        "itemCode": "部品番号",
+        "productionType": "在庫生産区分",
+        "stockStatusCodeFilter": "在庫状態",
+        "stockStatusCode": "在庫状態コード",
+        "actualQuantity": "実棚数",
+        "boxQuantity": "箱数",
+        "allocatableQuantity": "理論在庫数量",
+        "differentQuantity": "在庫差異",
+        "scanDateTime": "実棚日時",
+        "boxNo": "箱番号",
+        "inventoryRounds": "ラウンド",
+        "dbOperationType": "DB操作タイプ",
+        "areaName": "エリア名",
+        "locationCode": "ロケーションコード",
+        "userName": "実棚担当者"
+      }
+    },
+    "qrPrinting": {
+      "commonLabel": {
+        "tabTitle": "リーダー用QR印刷",
+        "whCode": "拠点",
+        "clientCode": "顧客",
+        "inventoryInitializationInformation": "棚卸初期化情報",
+        "inventoryNo": "棚卸指示番号",
+        "inventoryYearMonth": "棚卸年月",
+        "inventoryPassword": "パスワード",
+        "inventoryCheckIn": "棚卸開始日時",
+        "updateDateTime": "最終作業日時",
+        "inventoryAreaInformation": "棚卸エリア情報",
+        "group1": "グループ 1",
+        "group2": "グループ 2",
+        "group3": "グループ 3",
+        "group4": "グループ 4",
+        "group5": "グループ 5",
+        "printQRForReader": "リーダー用QR印刷",
+        "printLocationQR": "ロケーションQR表印刷"
+      }
+    },
+    "outOfStockInquiry": {
+      "commonLabel": {
+        "before": "以前",
+        "total": "合計",
+        "clientName": "顧客名",
+        "daily": "日計",
+        "itemCode": "部品番号",
+        "note": "※入庫計画の値は保存されないため、保存が必要な場合はExcel出力を利用してください。",
+        "planQuantity": "実績/予定",
+        "popupTitle": "在庫詳細",
+        "productionType": "在庫生産区分",
+        "resultQuantity": "当日入庫",
+        "reverseBalance": "引当残",
+        "shippingDate": "出庫日",
+        "shippingDateViewOptions": "出荷日の表示方",
+        "startingOnMonday": "月曜起算(欧州式)",
+        "startingOnSunday": "日曜起算(米国式)",
+        "stockInPlan": "入庫予定",
+        "stockInSimulation": "入庫計画",
+        "stockOutPlan": "出庫予定",
+        "stockQuantity": "在庫数",
+        "supplierCode": "在庫サプライヤコード",
+        "warehouseName": "拠点名",
+        "week": "週目",
+        "weekly": "週計",
+        "weekNumberCalculation": "週番号の計算式",
+        "outOfStockOnly": "在庫不足のみ",
+        "displayOption": "表示方法"
+      },
+      "displayMethod": {
+        "option1": "全て",
+        "option2": "0以外"
+      }
+    },
+    "stepConfigMaster": {
+      "commonLabel": {
+        "impExpType": "ジョブタイプ",
+        "stepName": "ステップ名",
+        "stepNameJp": "ステップ名（漢字）",
+        "exportFrom": "ファイル取得先",
+        "stepInitialInformation": "ステップ初期情報",
+        "remarks": "備考",
+        "lastUpdatedBy": "最終更新者",
+        "updateDateTime": "更新日時",
+        "editModalTitle": "ステップ修正",
+        "addModalTitle": "ステップ追加",
+        "stepProcessingType": "ステップ処理タイプ"
+      }
+    },
+    "deliveryScheduleResetWarehouse": {
+      "commonLabel": {
+        "jobName": "ジョブ名",
+        "targetQuantity": "対象件数",
+        "folderPath": "S3フォルダーパス",
+        "fileName": "ファイル名称",
+        "noTableLinked": "紐付けテーブル未設定"
+      }
+    },
+    "shippingScheduleStandard": {
+      "title": {
+        "shippingScheduleStandardRegistration": "納入予定(共通)登録画面",
+        "shippingScheduleStandardErrorList": "納入予定(共通)エラー一覧画面",
+        "shippingScheduleStandardErrorDetail": "納入予定(共通)エラー明細画面",
+        "splitShippingScheduleStandard": "納入予定(共通)分割情報入力",
+        "shippingScheduleStandardHistory": "納入予定(共通)履歴一覧画面"
+      },
+      "toggle": {
+        "viewdataProcessingInfo": "データ処理情報を表示する",
+        "deleted": "削除済を表示する",
+        "displayUpdateInformation": "更新情報を表示する",
+        "displayOnlyHandEdit": "ハンド修正のみ表示"
+      },
+      "commonLabel": {
+        "uploadPopupTitle": "ファイルアップロード",
+        "unregistered": "未登録",
+        "registrationFailed": "登録失敗",
+        "registered": "登録済",
+        "total": "計",
+        "normal": "正常",
+        "abnormal": "異常",
+        "notYet": "未",
+        "warehouse": "拠点",
+        "personInCharge": "担当者",
+        "clientName": "顧客名",
+        "destinationSupplier": "出荷先サプライヤ",
+        "destination": "出荷先",
+        "warehouseCode": "拠点コード",
+        "destinationSupplierCode": "出荷先サプライヤコード",
+        "destinationCode": "出荷先コード",
+        "destinationPlantCode": "出荷先工場コード",
+        "meInCharge": "私が担当",
+        "errorOnly": "論理エラーのみ",
+        "linkedFile": "ファイル連携",
+        "handInput": "ハンド入力",
+        "upload": "アップロード",
+        "handEdit": "ハンド修正",
+        "dataProcessingInfo": "データ処理情報",
+        "inputType": "入力タイプ",
+        "deploymentStatus": "展開ステータス",
+        "delayAmount": "停滞件数",
+        "fLogicError": "論理エラー",
+        "addChangeType": "追加変更区分",
+        "shippingUniqueKey": "出庫ユニークキー",
+        "shippingBasicInfo": "出荷基本情報",
+        "supplier": "サプライヤ",
+        "code": "コード",
+        "name": "名称",
+        "businessPartnerCode": "出荷先設定用取引先コード",
+        "slipNo": "納品番号",
+        "deliveryDate": "納期",
+        "shift": "シフト",
+        "deliveryTime": "納入時刻",
+        "destinationName": "出荷先名",
+        "destinationPlant": "出荷先工場",
+        "deliveryPlace": "納入場所",
+        "deliveryDestinationCode": "出荷先設定用納入先コード",
+        "destinationItem": "出荷先品番",
+        "itemCode": "部品番号",
+        "productionType": "生産区分",
+        "planQuantity": "予定数",
+        "itemCapacity": "収容数",
+        "supplyPlace": "供給場所",
+        "itemName": "品目名",
+        "targetYearMonthSeason": "対象年月旬",
+        "dataReceptionDate": "データ受信日",
+        "infoName": "情報名称",
+        "dataProcessNo": "データ処理No",
+        "requester": "要求元",
+        "cancelStatus": "取消状態",
+        "productionDepot": "生産デポ",
+        "constructionOrderNo": "工事指令No",
+        "productType": "製品区分",
+        "receivingType": "受入区分",
+        "supplyType": "支給区分",
+        "deliveryType": "納入区分",
+        "itemTagSize": "現品票サイズ",
+        "itemTagExportUnit": "現品票出力単位",
+        "purchasingOfficer": "購担",
+        "orderPrintStatus": "注文書発行状態",
+        "confirmStatus": "確認状態",
+        "slipSupplySection": "納品供給セクション",
+        "slipBusinessPartnerCode": "納品取引先コード",
+        "slipReceivingType": "納品受入区分",
+        "slipProductionDepotType": "納品生産デポ区分",
+        "orderType": "発注区分",
+        "informationNo": "インフォメーションNo",
+        "orderPresenceOrAbsence": "マルメ有無",
+        "location": "ロケーション",
+        "requestNo": "依頼No",
+        "requestPerson": "依頼者",
+        "requestDepartment": "依頼部署",
+        "temporarySlipCode": "仮伝票コード",
+        "intermittentProductionMark": "間欠生産マーク",
+        "oldPrintNo": "旧発行No",
+        "oldItemNo": "旧部品番号",
+        "supplyPerson": "供給担当",
+        "inspectionMethod": "検査方式",
+        "limitedPurchaseDesiredUnitPrice": "限定購入希望単価",
+        "compositionUniformlyPrecedenceDegree": "構成一律先行度",
+        "componentPartPrecedenceDegree": "構成部品先行度",
+        "packingLotNo": "梱包ロットNo",
+        "trialReceivingBarcodeInformation": "試作受入用バーコード情報",
+        "arrangementNo": "手配No",
+        "placeArrangementType": "手配先区分",
+        "importantSafetyParts": "重保",
+        "destinationSupplyMark": "出荷支給マーク",
+        "processingDate": "処理年月日",
+        "smallPackingNo": "小梱包No",
+        "smallPackingType": "小梱包区分",
+        "newOldType": "新旧区分",
+        "rawSampleNo": "生試No",
+        "precedenceDegree": "先行度",
+        "buildOutMark": "打切りマーク",
+        "oizumiPlantBarcodeInformation": "大泉工場用バーコード情報",
+        "quantityLocationSupply": "棚ロケ_支給先",
+        "specialNotes1": "特記欄1",
+        "specialNotes2": "特記欄2",
+        "fExpressDelivery": "特急便フラグ",
+        "inOutManufactureType": "内外区分",
+        "unofficialAnnouncementType": "内示有無区分",
+        "deliveryDateConfirmationInfoType": "納期確認情報有無区分",
+        "deliveryDateInquiryType": "納期照会区分",
+        "deliveryDateChangeInformationType": "納期変更情報有無区分",
+        "deliveryCycle": "納入サイクル",
+        "deliveryLineType": "納入ライン区分",
+        "deliveryLot": "納入ロット",
+        "deliveryMethod": "納入方式",
+        "slipMargin": "納品余白",
+        "orderMethod": "発注方式",
+        "additionalMaterialsType": "付加資料有無区分",
+        "itemClass": "部品階級",
+        "itemIdentifierCode": "部品識別コード",
+        "packagingType": "包装区分",
+        "rustPreventionType": "防錆区分",
+        "massProductionAndRepair": "量補区分",
+        "inquiryNo": "照会No",
+        "pickupLogisticsType": "引取物流タイプ",
+        "compositionType": "構成品区分",
+        "buyerCode": "担当バイヤーコード",
+        "checklist": "ｲﾝﾗｲﾝﾁｪｯｸﾘｽﾄ",
+        "printStatus": "印刷ステータス",
+        "printDateTime": "印刷日時",
+        "printCount": "印刷回数",
+        "updateInformation": "更新情報",
+        "processDateTime": "処理年月日",
+        "destinationPlantType": "出荷先工場区分",
+        "deliveryPlaceLocation": "部品庫ロケーション",
+        "unloadingPlace": "荷卸場所",
+        "plantType": "工区",
+        "shippingPlace": "出荷場",
+        "productionWarehouse": "生産拠点",
+        "supplierPlantType": "サプライヤ工区",
+        "supplierShippingPlace": "サプライヤ出荷場",
+        "supplierProductionWarehouse": "サプライヤ生産拠点",
+        "timeDivision": "時区",
+        "productionPerson": "生担",
+        "discontinuationType": "打切区分",
+        "shippingPackagingCode": "出荷荷姿コード",
+        "backNo": "背番号",
+        "kdType": "KD区分",
+        "inspectionType": "検査区分",
+        "firstThingsType": "初物区分",
+        "importantSafetyPartsType": "重保区分",
+        "paidType": "有償区分",
+        "labelSize": "ラベルサイズ",
+        "ticketNo": "チケットNo",
+        "deliveryInstructionType": "納入指示区分",
+        "destinationProcess": "出荷先手順",
+        "constructionNo": "工事番号",
+        "orderReason": "注文理由",
+        "transportationNo": "輸NO",
+        "plannedType": "計画区分",
+        "logisticsRoute": "物流ルート",
+        "setNo": "セット番号",
+        "shippingWeight": "出荷重量(kg)",
+        "shippingCapacity": "出荷容積(m3)",
+        "boxQuantity": "箱数",
+        "slipNoClient": "客先納品番号",
+        "shippingIndividualInfo": "出荷個別情報",
+        "errorInformation": "エラー情報",
+        "totalAmount": "総件数",
+        "shippingScheduleTableName": "納入予定テーブル名",
+        "dataType": "データ区分",
+        "orderNo": "受注番号",
+        "orderRowNo": "受注行番号",
+        "meiwaCustomerCode": "盟和得意先コード",
+        "meiwaDeliveryDestinationCode": "盟和納入先コード",
+        "storehouseCode": "倉庫コード",
+        "partsNo": "部品番号",
+        "meiwaPlantCode1": "盟和工場コード1",
+        "deliveryNo": "納品番号",
+        "meiwaPlantCode2": "盟和工場コード2",
+        "meiwaSalesCode": "盟和営業コード",
+        "deliveryQuantitySign": "納入数量サイン",
+        "deliveryQuantity": "納入数量",
+        "resultQuantity": "実績数量",
+        "unit": "単位",
+        "createDate": "作成日付",
+        "null": "空",
+        "remarks": "備考",
+        "fLogicError1": "論理エラー有",
+        "fLogicError0": "論理エラー無",
+        "fDeploymentSkip1": "スキップ実施(重複によりスキップ)",
+        "fDeploymentSkip0": "スキップなし(正常)",
+        "fDeploymentNotRequired1": "CNA展開対象外",
+        "fDeploymentNotRequired0": "CNA展開対象",
+        "searchCondition": "検索条件",
+        "checkAll": "全てチェック",
+        "viewAddInfo": "追加情報を表示する",
+        "categoryAndOthers": "区分・その他"
+      }
+    },
+    "deploymentErrorDashboard": {
+      "commonLabel": {
+        "targetData": "対象データ",
+        "tableName": "テーブル名",
+        "functionName": "機能名",
+        "errorInformation": "エラー内容",
+        "recordCount": "レコード件数",
+        "functionCode1": "機能コード 1",
+        "functionCode2": "機能コード 2",
+        "functionCode3": "機能コード 3"
+      }
+    },
+    "deliverySlipArrivalCheck": {
+      "commonLabel": {
+        "barcode": "バーコード／QRコードスキャン",
+        "destination": "出荷先",
+        "deliverySlipCheckResult": "納品書チェック実績",
+        "destinationName": "出荷先名",
+        "destinationSupplier": "出荷先サプライヤ",
+        "destinationPlant": "出荷先工場",
+        "deliverySlipCheckData": "納品書チェック読取データ",
+        "ticketNoOrSlipNo": "(チケットNo or 納品番号)",
+        "deliverySlipcheckDateTime": "チェック日時",
+        "deliverySlipBarcodeContent": "納品書バーコード・QR内容"
+      }
+    },
+    "deliverySlipCheckResult": {
+      "commonLabel": {
+        "destination": "出荷先",
+        "deliverySlipCheckDate": "納品書チェック日",
+        "today": "本日",
+        "deliverySlipType": "納品書チェックタイプ",
+        "personInCharge": "担当者",
+        "destinationSupplier": "出荷先サプライヤ",
+        "deliverySlipCheckData": "納品書チェック読取データ",
+        "ticketNoOrSlipNo": "(チケットNo or 納品番号)",
+        "viewIncludeDeletedData": "削除済も表示する",
+        "destinationPlant": "出荷先工場",
+        "deliverySlipcheckDateTime": "チェック日時",
+        "deliverySlipcheckUser": "チェック作業者",
+        "deliveryScheduleData": "納入予定データ",
+        "slipNo": "納品番号",
+        "batchNo": "バッチNo",
+        "deliveryScheduleList": "納入予定一覧情報",
+        "warehouseCode": "拠点コード",
+        "planShippingDate": "出荷予定日",
+        "deliveryDate": "納期",
+        "destinationItem": "出荷先品番",
+        "itemCode": "部品番号",
+        "productionType": "生産区分",
+        "backNo": "背番号",
+        "quantity": "数量",
+        "deliveryPlace": "納入場所",
+        "deliverySlipBarcodeContent": "納品書バーコード・QR内容"
+      }
+    },
+    "supplierInvoiceMaster": {
+      "commonLabel": {
+        "addSupplierSpecificBillingItem": "サプライヤ別請求項目追加",
+        "useCurrencyCode": "使用通貨コード",
+        "invoiceUnit": "単位",
+        "invoiceType": "請求項目"
+      }
+    },
+    "itemInvoiceCostMaster": {
+      "commonLabel": {
+        "addItemizedBillingUnitPrice": "品目別請求単価追加",
+        "productionType": "在庫生産区分",
+        "destinationProductionType": "出荷先生産区分",
+        "useCurrencyCode": "使用通貨コード",
+        "invoiceType": "請求項目"
+      }
+    }
+  }
+}
